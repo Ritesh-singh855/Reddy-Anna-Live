@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Times New Roman", Times, serif;
+  }
+}
+
+/* --------------------------
+   🎯 Background Patterns
+---------------------------*/
+.bg-pattern-circles {
+  background-image: radial-gradient(circle at 1px 1px, white 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+.bg-pattern-dots {
+  background-image: radial-gradient(white 1px, transparent 0);
+  background-size: 10px 10px;
+}
+
+.bg-pattern-diagonal-lines {
+  background-image: repeating-linear-gradient(
+    45deg,
+    white 0,
+    white 1px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 10px 10px;
+}
+
+/* --------------------------
+   🌈 Gradient Animation
+---------------------------*/
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 8s ease infinite;
+}
+
+/* --------------------------
+   🏀 Icon Floating Animation
+   - Combines drifting + rotation/scale
+---------------------------*/
+
+@keyframes float-down-0 {
+  0% {
+    transform: translateY(-120%) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(100%) translateX(20px);
+  }
+  100% {
+    transform: translateY(250%) translateX(0);
+    opacity: 0;
+  }
+}
+
+@keyframes float-down-1 {
+  0% {
+    transform: translateY(-120%) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(100%) translateX(-20px);
+  }
+  100% {
+    transform: translateY(250%) translateX(0);
+    opacity: 0;
+  }
+}
+
+@keyframes float-down-2 {
+  0% {
+    transform: translateY(-120%) translateX(0) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(100%) translateX(10px) scale(1.1);
+  }
+  100% {
+    transform: translateY(250%) translateX(0) scale(1);
+    opacity: 0;
+  }
+}
+
+.animate-float-down-0 {
+  animation: float-down-0 6s linear infinite;
+}
+
+.animate-float-down-1 {
+  animation: float-down-1 7s linear infinite;
+}
+
+.animate-float-down-2 {
+  animation: float-down-2 8s linear infinite;
+}
+
+
+/* Apply animations with different speeds */
+.animate-float-0 {
+  animation: float-0 5s ease-in-out infinite;
+}
+
+.animate-float-1 {
+  animation: float-1 7s ease-in-out infinite;
+}
+
+.animate-float-2 {
+  animation: float-2 6s ease-in-out infinite;
+}

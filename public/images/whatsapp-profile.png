@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="whatsappGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#25D366;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#128C7E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#whatsappGradient)"/>
+  
+  <!-- WhatsApp Icon -->
+  <g transform="translate(256, 200)">
+    <circle cx="0" cy="0" r="80" fill="white" opacity="0.9"/>
+    <path d="M-40,-20 Q-50,-30 -40,-40 L-20,-30 Q-10,-25 -5,-20 Q0,-15 5,-20 Q10,-25 20,-30 L40,-40 Q50,-30 40,-20 Q30,-10 20,-10 L-20,-10 Q-30,-10 -40,-20 Z" fill="#25D366"/>
+    <circle cx="-15" cy="-25" r="3" fill="white"/>
+    <circle cx="15" cy="-25" r="3" fill="white"/>
+    <path d="M-10,-5 Q-5,0 0,-5 Q5,0 10,-5" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Reddy Anna Live Text -->
+  <g transform="translate(256, 380)">
+    <text x="0" y="0" text-anchor="middle" fill="white" font-size="24" font-family="Arial, sans-serif" font-weight="bold">REDDY ANNA LIVE</text>
+    <text x="0" y="30" text-anchor="middle" fill="white" font-size="16" font-family="Arial, sans-serif">Official Betting ID</text>
+  </g>
+  
+  <!-- Brand Logo -->
+  <g transform="translate(256, 100)">
+    <circle cx="0" cy="0" r="40" fill="url(#brandGradient)"/>
+    <text x="0" y="8" text-anchor="middle" fill="white" font-size="32" font-family="Arial, sans-serif" font-weight="bold">R</text>
+  </g>
+</svg>
