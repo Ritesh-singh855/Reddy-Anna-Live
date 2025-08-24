@@ -6,7 +6,7 @@ export const PrivacyPolicy = () => {
     const phoneNumber = "918890051287";
     const message = "Hi, I want to get my Reddy Anna Live ID!";
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-      message
+      message,
     )}`;
     window.open(whatsappUrl, "_blank");
   };
@@ -30,6 +30,18 @@ export const PrivacyPolicy = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Left Column */}
             <div>
+              {/* SEO Keywords (hidden for search engines) */}
+              <div style={{ display: "none" }}>
+                cricbet99, lotus365, mahadev book, mahakal book, reddy anna app,
+                reddy anna betting, reddy anna book, reddy anna book 247, reddy
+                anna book live login, reddy anna book login, reddy anna club,
+                reddy anna club live, reddy anna customer care number, reddy
+                anna live, reddy anna live casino, reddy anna live cricket,
+                reddy anna live login, reddy anna live score, reddy anna live
+                today, reddy anna login, reddy anna online, reddy anna online
+                book id, reddy anna website, reddy anna whatsapp number,
+                reddybook
+              </div>
               <div className="space-y-6 text-gray-300 leading-relaxed">
                 <p>Effective Date: 29/1/2024 </p>
                 <p>
@@ -87,7 +99,9 @@ export const PrivacyPolicy = () => {
                   described in this Privacy Policy or as required by law.
                 </p>
 
-                <h3 className="text-xl font-semibold text-white">Your Choices</h3>
+                <h3 className="text-xl font-semibold text-white">
+                  Your Choices
+                </h3>
                 <ul className="list-disc list-inside">
                   <li>
                     <strong>Access Your Information:</strong> Request access to
@@ -125,7 +139,9 @@ export const PrivacyPolicy = () => {
                   Policy or our data practices, please contact us.
                 </p>
 
-                <p>Thank you for trusting reddyannalive.in with your information!</p>
+                <p>
+                  Thank you for trusting reddyannalive.in with your information!
+                </p>
                 <p>reddyannalive.in</p>
                 <p>India</p>
               </div>
@@ -204,7 +220,9 @@ export const PrivacyPolicy = () => {
                 </h3>
                 <div className="grid grid-cols-2 gap-6 text-center">
                   <div>
-                    <div className="text-3xl font-bold text-yellow-400">13+</div>
+                    <div className="text-3xl font-bold text-yellow-400">
+                      13+
+                    </div>
                     <div className="text-gray-400">Years Experience</div>
                   </div>
                   <div>
@@ -220,7 +238,9 @@ export const PrivacyPolicy = () => {
                     <div className="text-gray-400">Happy Customers</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-yellow-400">24/7</div>
+                    <div className="text-3xl font-bold text-yellow-400">
+                      24/7
+                    </div>
                     <div className="text-gray-400">Support</div>
                   </div>
                 </div>
@@ -270,7 +290,7 @@ export const PrivacyPolicy = () => {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-white font-semibold">
             Disclaimer:- This Website is only for 18+ users. If you are from
-            Telangana, Orissa, Assam, Sikkim, and Nagaland Please leave the
+            Please leave the website immediately if you are not eligible. Be aware of fraudsters, we only deal via WhatsApp
             website immediately. Be aware of fraudsters, we only deal via
             WhatsApp
           </p>
@@ -281,7 +301,8 @@ export const PrivacyPolicy = () => {
       <section className="py-6 bg-black">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-gray-400 text-sm">
-            Copyright © {new Date().getFullYear()} Reddy Anna Live. All Rights Reserved.
+            Copyright © {new Date().getFullYear()} Reddy Anna Live. All Rights
+            Reserved.
           </p>
         </div>
       </section>

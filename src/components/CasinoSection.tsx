@@ -53,9 +53,9 @@ export const CasinoSection = () => {
     const message = "Hi, I want to login to Reddy Anna Live!";
     window.open(
       `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-        message
+        message,
       )}`,
-      "_blank"
+      "_blank",
     );
   };
   return (
@@ -66,68 +66,55 @@ export const CasinoSection = () => {
             Casino Games
           </h2>
         </div>
-
         {/* Casino Games */}
-        <div className="mb-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-18 gap-4">
-            {casinoGames.map((game, index) => (
-              <Card
-                key={index}
-                className="group cursor-pointer overflow-hidden transform transition-all duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(251,191,36,0.3)]"
-                onClick={openWhatsApp}
-              >
-                <CardContent className="p-0 text-center h-full relative">
-                  <div className="h-full overflow-hidden">
-                    <img
-                      src={game.icon}
-                      alt={game.name}
-                      className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                      <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                        <span className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-yellow-400 text-black font-semibold">
-                          Play Now
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+        <div className="mb-12 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
+          {casinoGames.map((game, index) => (
+            <Card
+              key={index}
+              className="hover:shadow-xl hover:scale-105 transition-transform duration-300 ease-out cursor-pointer"
+              onClick={openWhatsApp}
+            >
+              <CardContent className="p-6 text-center">
+                <img
+                  src={game.icon}
+                  alt={game.name}
+                  loading="lazy"
+                  className="mx-auto mb-4 w-20 h-20 object-contain"
+                />
+                <h4 className="text-xl font-semibold mb-2">{game.name}</h4>
+              </CardContent>
+            </Card>
+          ))}
         </div>
-
-        {/* Indian Card Games */}
-        <div className="w-full mb-12">
-          <h2 className="text-3xl font-bold mb-12 text-center w-full py-4 px-8 rounded-lg bg-gradient-to-r from-yellow-400 to-orange-500 text-white shadow-lg transition-all duration-300 hover:shadow-xl">
-            Indian Card Games
-          </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-18 gap-4">
-            {indianCardGames.map((game, index) => (
-              <Card
-                key={index}
-                className="group cursor-pointer overflow-hidden transform transition-all duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(251,191,36,0.3)]"
-                onClick={openWhatsApp}
-              >
-                <CardContent className="p-0 text-center h-full relative">
-                  <div className="h-full overflow-hidden">
-                    <img
-                      src={game.icon}
-                      alt={game.name}
-                      className="w-full h-28 object-cover rounded-lg transform transition-transform duration-300 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <div className="absolute bottom-0 left-0 right-0 p-4">
-                        <span className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-yellow-400 text-black font-semibold">
-                          Play Now
-                        </span>
-                      </div>
+        <h2 className="text-3xl font-bold mb-12 text-center w-full py-4 px-8 rounded-lg bg-gradient-to-r from-yellow-400 to-orange-500 text-white shadow-lg transition-all duration-300 hover:shadow-xl">
+          Indian Card Games
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
+          {indianCardGames.map((game, index) => (
+            <Card
+              key={index}
+              className="group cursor-pointer overflow-hidden transform transition-all duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(251,191,36,0.3)]"
+              onClick={openWhatsApp}
+            >
+              <CardContent className="p-0 text-center h-full relative">
+                <div className="h-full overflow-hidden">
+                  <img
+                    src={game.icon}
+                    alt={game.name}
+                    loading="lazy"
+                    className="w-full h-28 object-cover rounded-lg transform transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="absolute bottom-0 left-0 right-0 p-4">
+                      <span className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-yellow-400 text-black font-semibold">
+                        Play Now
+                      </span>
                     </div>
                   </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </div>
     </section>

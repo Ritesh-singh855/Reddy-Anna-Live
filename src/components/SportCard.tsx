@@ -10,22 +10,26 @@ interface SportCardProps {
   className?: string;
 }
 
-export const SportCard = ({ 
-  title, 
-  gradient, 
-  icon, 
+export const SportCard = ({
+  title,
+  gradient,
+  icon,
   description = "Live betting available",
-  className 
+  className,
 }: SportCardProps) => {
   return (
-    <Card className={cn(
-      "group relative overflow-hidden cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg",
-      className
-    )}>
-      <div className={cn(
-        "h-32 p-6 flex flex-col justify-between text-white relative",
-        gradient
-      )}>
+    <Card
+      className={cn(
+        "group relative overflow-hidden cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-lg",
+        className,
+      )}
+    >
+      <div
+        className={cn(
+          "h-32 p-6 flex flex-col justify-between text-white relative",
+          gradient,
+        )}
+      >
         <div className="absolute inset-0 bg-black/20" />
         <div className="relative z-10">
           <div className="text-2xl mb-2">{icon}</div>

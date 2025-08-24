@@ -7,7 +7,7 @@ export const WhatsAppButton = () => {
   const handleClick = () => {
     window.open(
       `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`,
-      "_blank"
+      "_blank",
     );
   };
 

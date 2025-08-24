@@ -34,7 +34,7 @@ export const Sidebar = () => {
     const phoneNumber = "918890051287";
     const message = "Hi, I want to sign up for Reddy Anna Live!";
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-      message
+      message,
     )}`;
     window.open(whatsappUrl, "_blank");
   };
