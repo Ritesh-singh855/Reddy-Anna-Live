@@ -113,7 +113,7 @@ export const Footer = () => {
             <div className="w-full px-2 text-center">
               <p className="text-lg md:text-xl text-white font-small">
                 Disclaimer:- This Website is only for 18+ users. If you are from
-                Telangana, Orissa, Assam, Sikkim, and Nagaland Please leave the
+                Please leave the website immediately if you are not eligible. Be aware of fraudsters, we only deal via WhatsApp
                 website immediately. Be aware of fraudsters, we only deal via
                 WhatsApp
               </p>
