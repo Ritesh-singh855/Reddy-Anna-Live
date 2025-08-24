@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Title } from "@radix-ui/react-toast";
 
 export const Hero = () => {
   const openWhatsApp = () => {
@@ -13,7 +14,9 @@ export const Hero = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Reddy Anna Live Cricket Betting
+            Reddy Anna Live<br />
+            Best Online Betting Platform in India<br />
+            <span>Join Now &amp; Get Exclusive Offers!</span>
           </h1>
           <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
             Experience the thrill of live sports betting with the best odds and

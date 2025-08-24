@@ -8,6 +8,7 @@ import { Footer } from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
+  <h1 style={{display: "none"}}>Reddy Anna Live - Best Online Betting Platform in India</h1>
       <Hero />
       <SportsGrid />
       <LiveMatches />
