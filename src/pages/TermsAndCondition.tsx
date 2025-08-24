@@ -6,7 +6,7 @@ export const TermsAndCondition = () => {
     const phoneNumber = "918890051287";
     const message = "Hi, I want to get my Reddy Anna Live ID!";
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-      message
+      message,
     )}`;
     window.open(whatsappUrl, "_blank");
   };
@@ -28,6 +28,17 @@ export const TermsAndCondition = () => {
       <section className="py-16">
         <div className="w-full px-4">
           <div>
+            {/* SEO Keywords (hidden for search engines) */}
+            <div style={{ display: "none" }}>
+              cricbet99, lotus365, mahadev book, mahakal book, reddy anna app,
+              reddy anna betting, reddy anna book, reddy anna book 247, reddy
+              anna book live login, reddy anna book login, reddy anna club,
+              reddy anna club live, reddy anna customer care number, reddy anna
+              live, reddy anna live casino, reddy anna live cricket, reddy anna
+              live login, reddy anna live score, reddy anna live today, reddy
+              anna login, reddy anna online, reddy anna online book id, reddy
+              anna website, reddy anna whatsapp number, reddybook
+            </div>
             <div className="space-y-6 text-gray-300 leading-relaxed">
               <p>Effective Date: 29.01.2024</p>
 
@@ -196,7 +207,10 @@ export const TermsAndCondition = () => {
       <section className="py-8 bg-red-900">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-white font-medium">
-            Disclaimer:- This Website is only for 18+ users. If you are from Telangana, Orissa, Assam, Sikkim, and Nagaland Please leave the website immediately. Be aware of fraudsters, we only deal via WhatsApp
+            Disclaimer:- This Website is only for 18+ users. If you are from
+            Telangana, Orissa, Assam, Sikkim, and Nagaland Please leave the
+            website immediately. Be aware of fraudsters, we only deal via
+            WhatsApp
           </p>
         </div>
       </section>
@@ -205,7 +219,8 @@ export const TermsAndCondition = () => {
       <section className="py-6 bg-black">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-gray-400 text-sm">
-            Copyright © {new Date().getFullYear()} Reddy Anna Live. All Rights Reserved.
+            Copyright © {new Date().getFullYear()} Reddy Anna Live. All Rights
+            Reserved.
           </p>
         </div>
       </section>

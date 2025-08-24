@@ -53,9 +53,9 @@ export const CasinoSection = () => {
     const message = "Hi, I want to login to Reddy Anna Live!";
     window.open(
       `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-        message
+        message,
       )}`,
-      "_blank"
+      "_blank",
     );
   };
   return (

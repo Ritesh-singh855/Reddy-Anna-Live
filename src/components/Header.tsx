@@ -11,9 +11,9 @@ export const Header = () => {
     const message = "Hi, I want to login to Reddy Anna Live!";
     window.open(
       `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-        message
+        message,
       )}`,
-      "_blank"
+      "_blank",
     );
   };
 
@@ -22,9 +22,9 @@ export const Header = () => {
     const message = "Hi, I want to sign up for Reddy Anna Live!";
     window.open(
       `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-        message
+        message,
       )}`,
-      "_blank"
+      "_blank",
     );
   };
 

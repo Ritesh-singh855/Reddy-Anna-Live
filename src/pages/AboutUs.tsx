@@ -22,21 +22,36 @@ export const AboutUs = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Left Column */}
             <div>
-              <h2 className="text-3xl font-bold mb-8 text-yellow-400">About Reddy Anna Live</h2>
+              <h2 className="text-3xl font-bold mb-8 text-yellow-400">
+                About Reddy Anna Live
+              </h2>
               <div className="space-y-6 text-gray-300 leading-relaxed">
                 <p>
-                  Established in 2010, Reddy Anna Live is known name in India for Fantasy cricket and Live Cricket Matches online betting. Biggest Exchange platform provide Online ID.
+                  Established in 2010, Reddy Anna Live is known name in India
+                  for Fantasy cricket and Live Cricket Matches online betting.
+                  Biggest Exchange platform provide Online ID.
                 </p>
                 <p>
-                  24-hour withdrawal and Refill services and one can get Online ID in 500 Rs. Contact us through WhatsApp or register with Us. Read rules and regulations of each games then start playing. Demo account also available on Reddy Anna Live. Login with Demo ID and play with demo users.
+                  24-hour withdrawal and Refill services and one can get Online
+                  ID in 500 Rs. Contact us through WhatsApp or register with Us.
+                  Read rules and regulations of each games then start playing.
+                  Demo account also available on Reddy Anna Live. Login with
+                  Demo ID and play with demo users.
                 </p>
                 <p>
-                  Since 2010, Reddy Anna Live has provided online betting service in India. Join our trusted 200+ branches network and Get authorised ID. Create Reddy Anna Online ID in 2 minutes. No KYC, no documentation, instant approval.
+                  Since 2010, Reddy Anna Live has provided online betting
+                  service in India. Join our trusted 200+ branches network and
+                  Get authorised ID. Create Reddy Anna Online ID in 2 minutes.
+                  No KYC, no documentation, instant approval.
                 </p>
               </div>
-              
+
               <div className="mt-8">
-                <Button size="lg" className="bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600" onClick={() => openWhatsApp()}>
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600"
+                  onClick={() => openWhatsApp()}
+                >
                   Get Your Reddy Anna Live ID
                 </Button>
               </div>
@@ -49,54 +64,83 @@ export const AboutUs = () => {
                 <Card className="bg-gray-900 border-gray-700">
                   <CardContent className="p-6">
                     <div className="text-3xl mb-4">🏏</div>
-                    <h3 className="text-xl font-semibold mb-2 text-white">Fantasy Cricket</h3>
-                    <p className="text-gray-400">Best fantasy cricket platform with live matches and real-time updates.</p>
+                    <h3 className="text-xl font-semibold mb-2 text-white">
+                      Fantasy Cricket
+                    </h3>
+                    <p className="text-gray-400">
+                      Best fantasy cricket platform with live matches and
+                      real-time updates.
+                    </p>
                   </CardContent>
                 </Card>
 
                 <Card className="bg-gray-900 border-gray-700">
                   <CardContent className="p-6">
                     <div className="text-3xl mb-4">⚡</div>
-                    <h3 className="text-xl font-semibold mb-2 text-white">24/7 Services</h3>
-                    <p className="text-gray-400">Round the clock withdrawal and refill services for your convenience.</p>
+                    <h3 className="text-xl font-semibold mb-2 text-white">
+                      24/7 Services
+                    </h3>
+                    <p className="text-gray-400">
+                      Round the clock withdrawal and refill services for your
+                      convenience.
+                    </p>
                   </CardContent>
                 </Card>
 
                 <Card className="bg-gray-900 border-gray-700">
                   <CardContent className="p-6">
                     <div className="text-3xl mb-4">💰</div>
-                    <h3 className="text-xl font-semibold mb-2 text-white">Affordable ID</h3>
-                    <p className="text-gray-400">Get your Online ID for just 500 Rs with instant approval.</p>
+                    <h3 className="text-xl font-semibold mb-2 text-white">
+                      Affordable ID
+                    </h3>
+                    <p className="text-gray-400">
+                      Get your Online ID for just 500 Rs with instant approval.
+                    </p>
                   </CardContent>
                 </Card>
 
                 <Card className="bg-gray-900 border-gray-700">
                   <CardContent className="p-6">
                     <div className="text-3xl mb-4">🎮</div>
-                    <h3 className="text-xl font-semibold mb-2 text-white">Demo Account</h3>
-                    <p className="text-gray-400">Try our platform with demo account before playing with real money.</p>
+                    <h3 className="text-xl font-semibold mb-2 text-white">
+                      Demo Account
+                    </h3>
+                    <p className="text-gray-400">
+                      Try our platform with demo account before playing with
+                      real money.
+                    </p>
                   </CardContent>
                 </Card>
               </div>
 
               {/* Stats */}
               <div className="bg-gray-900 p-6 rounded-lg">
-                <h3 className="text-2xl font-bold mb-6 text-center">Our Numbers</h3>
+                <h3 className="text-2xl font-bold mb-6 text-center">
+                  Our Numbers
+                </h3>
                 <div className="grid grid-cols-2 gap-6 text-center">
                   <div>
-                    <div className="text-3xl font-bold text-yellow-400">13+</div>
+                    <div className="text-3xl font-bold text-yellow-400">
+                      13+
+                    </div>
                     <div className="text-gray-400">Years Experience</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-yellow-400">200+</div>
+                    <div className="text-3xl font-bold text-yellow-400">
+                      200+
+                    </div>
                     <div className="text-gray-400">Branches</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-yellow-400">10L+</div>
+                    <div className="text-3xl font-bold text-yellow-400">
+                      10L+
+                    </div>
                     <div className="text-gray-400">Happy Customers</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-yellow-400">24/7</div>
+                    <div className="text-3xl font-bold text-yellow-400">
+                      24/7
+                    </div>
                     <div className="text-gray-400">Support</div>
                   </div>
                 </div>
@@ -113,18 +157,29 @@ export const AboutUs = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-4xl mb-4">🏏</div>
-              <h3 className="text-xl font-semibold mb-3">Live Cricket Betting</h3>
-              <p className="text-gray-400">Bet on live cricket matches with real-time odds and instant payouts.</p>
+              <h3 className="text-xl font-semibold mb-3">
+                Live Cricket Betting
+              </h3>
+              <p className="text-gray-400">
+                Bet on live cricket matches with real-time odds and instant
+                payouts.
+              </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🎰</div>
               <h3 className="text-xl font-semibold mb-3">Casino Games</h3>
-              <p className="text-gray-400">Play your favorite casino games with live dealers and real players.</p>
+              <p className="text-gray-400">
+                Play your favorite casino games with live dealers and real
+                players.
+              </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🃏</div>
               <h3 className="text-xl font-semibold mb-3">Indian Card Games</h3>
-              <p className="text-gray-400">Traditional Indian card games like Teen Patti, Andar Bahar, and more.</p>
+              <p className="text-gray-400">
+                Traditional Indian card games like Teen Patti, Andar Bahar, and
+                more.
+              </p>
             </div>
           </div>
         </div>
@@ -134,7 +189,10 @@ export const AboutUs = () => {
       <section className="py-8 bg-red-900">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-white font-medium">
-            Disclaimer:- This Website is only for 18+ users. If you are from Telangana, Orissa, Assam, Sikkim, and Nagaland Please leave the website immediately. Be aware of fraudsters, we only deal via WhatsApp
+            Disclaimer:- This Website is only for 18+ users. If you are from
+            Telangana, Orissa, Assam, Sikkim, and Nagaland Please leave the
+            website immediately. Be aware of fraudsters, we only deal via
+            WhatsApp
           </p>
         </div>
       </section>
@@ -143,10 +201,22 @@ export const AboutUs = () => {
       <section className="py-6 bg-black">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-gray-400 text-sm">
-            Copyright © {new Date().getFullYear()} Reddy Anna Live. All Rights Reserved.
+            Copyright © {new Date().getFullYear()} Reddy Anna Live. All Rights
+            Reserved.
           </p>
         </div>
       </section>
+      {/* SEO Keywords (hidden for search engines) */}
+      <div style={{ display: "none" }}>
+        cricbet99, lotus365, mahadev book, mahakal book, reddy anna app, reddy
+        anna betting, reddy anna book, reddy anna book 247, reddy anna book live
+        login, reddy anna book login, reddy anna club, reddy anna club live,
+        reddy anna customer care number, reddy anna live, reddy anna live
+        casino, reddy anna live cricket, reddy anna live login, reddy anna live
+        score, reddy anna live today, reddy anna login, reddy anna online, reddy
+        anna online book id, reddy anna website, reddy anna whatsapp number,
+        reddybook
+      </div>
     </div>
   );
 };

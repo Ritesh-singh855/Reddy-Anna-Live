@@ -11,13 +11,13 @@ interface LiveMatchProps {
   isLive?: boolean;
 }
 
-export const LiveMatch = ({ 
-  sport, 
-  team1, 
-  team2, 
-  league, 
-  time, 
-  isLive = false 
+export const LiveMatch = ({
+  sport,
+  team1,
+  team2,
+  league,
+  time,
+  isLive = false,
 }: LiveMatchProps) => {
   return (
     <Card className="p-4 hover:shadow-md transition-shadow">
@@ -37,19 +37,20 @@ export const LiveMatch = ({
           <div className="text-sm font-medium text-foreground">
             {team1} vs {team2}
           </div>
-          <div className="text-xs text-muted-foreground mt-1">
-            {league}
-          </div>
+          <div className="text-xs text-muted-foreground mt-1">{league}</div>
         </div>
-        
+
         <div className="flex items-center space-x-3">
           <div className="text-right">
             <div className="text-sm font-medium">{time}</div>
             <div className="text-xs text-muted-foreground">
-              {isLive ? 'Live Now' : 'Upcoming'}
+              {isLive ? "Live Now" : "Upcoming"}
             </div>
           </div>
-          <Button size="sm" className="bg-gradient-primary hover:opacity-90 text-primary-foreground">
+          <Button
+            size="sm"
+            className="bg-gradient-primary hover:opacity-90 text-primary-foreground"
+          >
             Bet Now
           </Button>
         </div>

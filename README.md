@@ -17,15 +17,19 @@ The only requirement is having Node.js & npm installed - install with nvm
 Follow these steps:
 
 # Step 1: Clone the repository using the project's Git URL.
+
 git clone https://github.com/Ritesh-singh855/Reddy-Anna-Live.git
 
 # Step 2: Navigate to the project directory.
+
 cd Reddy-Anna-Live
 
 # Step 3: Install the necessary dependencies.
+
 npm i
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
+
 npm run dev
 
 Edit a file directly in GitHub
@@ -70,3 +74,7 @@ Can I connect a custom domain?
 
 Yes, you can!
 If you deploy on Vercel or Netlify, you can configure your custom domain through their settings.
+
+## SEO Keywords
+
+cricbet99, lotus365, mahadev book, mahakal book, reddy anna app, reddy anna betting, reddy anna book, reddy anna book 247, reddy anna book live login, reddy anna book login, reddy anna club, reddy anna club live, reddy anna customer care number, reddy anna live, reddy anna live casino, reddy anna live cricket, reddy anna live login, reddy anna live score, reddy anna live today, reddy anna login, reddy anna online, reddy anna online book id, reddy anna website, reddy anna whatsapp number, reddybook

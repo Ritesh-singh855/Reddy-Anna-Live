@@ -12,7 +12,11 @@
    🎯 Background Patterns
 ---------------------------*/
 .bg-pattern-circles {
-  background-image: radial-gradient(circle at 1px 1px, white 1px, transparent 0);
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    white 1px,
+    transparent 0
+  );
   background-size: 20px 20px;
 }
 
@@ -119,7 +123,6 @@
 .animate-float-down-2 {
   animation: float-down-2 8s linear infinite;
 }
-
 
 /* Apply animations with different speeds */
 .animate-float-0 {
