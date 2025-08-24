@@ -189,10 +189,9 @@ export const AboutUs = () => {
       <section className="py-8 bg-red-900">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-white font-medium">
-            Disclaimer:- This Website is only for 18+ users. If you are from
-            Telangana, Orissa, Assam, Sikkim, and Nagaland Please leave the
-            website immediately. Be aware of fraudsters, we only deal via
-            WhatsApp
+            Disclaimer:- This Website is only for 18+ users. Please leave the
+            website immediately if online betting is not permitted in your
+            region. Be aware of fraudsters, we only deal via WhatsApp.
           </p>
         </div>
       </section>
