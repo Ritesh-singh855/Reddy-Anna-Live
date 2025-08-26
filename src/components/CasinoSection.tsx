@@ -58,61 +58,66 @@ export const CasinoSection = () => {
       "_blank",
     );
   };
+
   return (
     <section className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
+        {/* Section Title */}
         <div className="w-full mb-12">
           <h2 className="text-3xl font-bold text-center w-full py-4 px-8 rounded-lg bg-gradient-to-r from-yellow-400 to-orange-500 text-white shadow-lg transition-all duration-300 hover:shadow-xl">
             Casino Games
           </h2>
         </div>
+
         {/* Casino Games */}
-        <div className="mb-12 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
-          {casinoGames.map((game, index) => (
+       <div className="mb-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
+  {casinoGames.map((game, index) => (
+    <Card
+      key={index}
+      className="hover:shadow-xl hover:scale-105 transition-transform duration-300 ease-out cursor-pointer overflow-hidden inline-block"
+      onClick={openWhatsApp}
+    >
+      <CardContent className="p-0 flex items-center justify-center bg-black">
+        <img
+          src={game.icon}
+          alt={game.name}
+          loading="lazy"
+          className="object-contain"
+        />
+      </CardContent>
+      <div className="text-center py-2">
+        <h4 className="text-lg font-semibold">{game.name}</h4>
+      </div>
+    </Card>
+  ))}
+</div>
+
+
+
+        {/* Indian Card Games Title */}
+        <h2 className="text-3xl font-bold mb-12 text-center w-full py-4 px-8 rounded-lg bg-gradient-to-r from-yellow-400 to-orange-500 text-white shadow-lg transition-all duration-300 hover:shadow-xl">
+          Indian Card Games
+        </h2>
+
+        {/* Indian Card Games */}
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          {indianCardGames.map((game, index) => (
             <Card
               key={index}
-              className="hover:shadow-xl hover:scale-105 transition-transform duration-300 ease-out cursor-pointer"
+              className="hover:shadow-xl hover:scale-105 transition-transform duration-300 ease-out cursor-pointer overflow-hidden inline-block"
               onClick={openWhatsApp}
             >
-              <CardContent className="p-6 text-center">
+              <CardContent className="p-0 flex items-center justify-center bg-black">
                 <img
                   src={game.icon}
                   alt={game.name}
                   loading="lazy"
-                  className="mx-auto mb-4 w-20 h-20 object-contain"
+                  className="object-contain"
                 />
-                <h4 className="text-xl font-semibold mb-2">{game.name}</h4>
               </CardContent>
-            </Card>
-          ))}
-        </div>
-        <h2 className="text-3xl font-bold mb-12 text-center w-full py-4 px-8 rounded-lg bg-gradient-to-r from-yellow-400 to-orange-500 text-white shadow-lg transition-all duration-300 hover:shadow-xl">
-          Indian Card Games
-        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
-          {indianCardGames.map((game, index) => (
-            <Card
-              key={index}
-              className="group cursor-pointer overflow-hidden transform transition-all duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(251,191,36,0.3)]"
-              onClick={openWhatsApp}
-            >
-              <CardContent className="p-0 text-center h-full relative">
-                <div className="h-full overflow-hidden">
-                  <img
-                    src={game.icon}
-                    alt={game.name}
-                    loading="lazy"
-                    className="w-full h-28 object-cover rounded-lg transform transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="absolute bottom-0 left-0 right-0 p-4">
-                      <span className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-yellow-400 text-black font-semibold">
-                        Play Now
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
+              <div className="text-center py-2">
+                <h4 className="text-lg font-semibold">{game.name}</h4>
+              </div>
             </Card>
           ))}
         </div>
