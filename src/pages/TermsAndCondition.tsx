@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+
+import { SEO } from "@/components/SEO";
 
 export const TermsAndCondition = () => {
   const openWhatsApp = () => {
@@ -13,6 +14,29 @@ export const TermsAndCondition = () => {
 
   return (
     <div className="min-h-screen bg-black text-white">
+      <SEO
+        title="Terms of Use"
+        description="Read the Terms and Conditions of using Reddy Anna Live, including eligibility and site usage."
+        canonical="https://www.reddyannalive.in/termAndCondition"
+        robots="index,follow"
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.reddyannalive.in/" },
+              { "@type": "ListItem", position: 2, name: "Terms and Conditions", item: "https://www.reddyannalive.in/termAndCondition" },
+            ],
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "Terms and Conditions - Reddy Anna Live",
+            url: "https://www.reddyannalive.in/termAndCondition",
+            description: "Terms and Conditions for Reddy Anna Live.",
+          },
+        ]}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-yellow-400 to-orange-500 py-16">
         <div className="w-full px-4">
@@ -37,7 +61,7 @@ export const TermsAndCondition = () => {
               live, reddy anna live casino, reddy anna live cricket, reddy anna
               live login, reddy anna live score, reddy anna live today, reddy
               anna login, reddy anna online, reddy anna online book id, reddy
-              anna website, reddy anna whatsapp number, reddybook
+              anna website, reddy anna whatsapp number, reddybook, reddy anna, online id, cricket id, casino id, fast deposit, fast withdrawal, auto deposit, auto withdrawal, gold365, live casino, all penal, ipl, bbl, sat20, cwc, psl, new id, trusted, reddyannabook, instagram id
             </div>
             <div className="space-y-6 text-gray-300 leading-relaxed">
               <p>Effective Date: 29.01.2024</p>

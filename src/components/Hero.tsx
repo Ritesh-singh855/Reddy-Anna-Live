@@ -17,8 +17,6 @@ export const Hero = () => {
             Reddy Anna Live
             <br />
             Best Online Betting Platform in India
-            <br />
-            <span>Join Now &amp; Get Exclusive Offers!</span>
           </h1>
           <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
             Experience the thrill of live sports betting with the best odds and

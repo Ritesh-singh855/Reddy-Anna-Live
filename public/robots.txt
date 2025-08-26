@@ -13,4 +13,6 @@ Allow: /
 User-agent: *
 Allow: /
 # SEO Keywords
-cricbet99, lotus365, mahadev book, mahakal book, reddy anna app, reddy anna betting, reddy anna book, reddy anna book 247, reddy anna book live login, reddy anna book login, reddy anna club, reddy anna club live, reddy anna customer care number, reddy anna live, reddy anna live casino, reddy anna live cricket, reddy anna live login, reddy anna live score, reddy anna live today, reddy anna login, reddy anna online, reddy anna online book id, reddy anna website, reddy anna whatsapp number, reddybook
+cricbet99, lotus365, mahadev book, mahakal book, reddy anna app, reddy anna betting, reddy anna book, reddy anna book 247, reddy anna book live login, reddy anna book login, reddy anna club, reddy anna club live, reddy anna customer care number, reddy anna live, reddy anna live casino, reddy anna live cricket, reddy anna live login, reddy anna live score, reddy anna live today, reddy anna login, reddy anna online, reddy anna online book id, reddy anna website, reddy anna whatsapp number, reddybook, reddy anna, online id, cricket id, casino id, fast deposit, fast withdrawal, auto deposit, auto withdrawal, gold365, live casino, all penal, ipl, bbl, sat20, cwc, psl, new id, trusted, reddyannabook, instagram id
+
+Sitemap: https://www.reddyannalive.in/sitemap.xml

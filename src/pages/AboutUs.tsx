@@ -2,9 +2,34 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { openWhatsApp } from "@/utils/whatsapp";
 
+import { SEO } from "@/components/SEO";
+
 export const AboutUs = () => {
   return (
     <div className="min-h-screen bg-black text-white">
+      <SEO
+        title="About Our Betting & Casino Platform"
+        description="Learn about Reddy Anna Live: India’s trusted online sports betting and live casino platform with fast deposit/withdrawal and 24/7 support."
+        canonical="https://www.reddyannalive.in/about-us"
+        robots="index,follow"
+        structuredData={[
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.reddyannalive.in/" },
+              { "@type": "ListItem", position: 2, name: "About Us", item: "https://www.reddyannalive.in/about-us" },
+            ],
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "About Us - Reddy Anna Live",
+            url: "https://www.reddyannalive.in/about-us",
+            description: "Learn about Reddy Anna Live: India’s trusted online sports betting and live casino platform.",
+          },
+        ]}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-yellow-400 to-orange-500 py-16">
         <div className="max-w-7xl mx-auto px-4">
@@ -214,7 +239,7 @@ export const AboutUs = () => {
         casino, reddy anna live cricket, reddy anna live login, reddy anna live
         score, reddy anna live today, reddy anna login, reddy anna online, reddy
         anna online book id, reddy anna website, reddy anna whatsapp number,
-        reddybook
+        reddybook, reddy anna, online id, cricket id, casino id, fast deposit, fast withdrawal, auto deposit, auto withdrawal, gold365, live casino, all penal, ipl, bbl, sat20, cwc, psl, new id, trusted, reddyannabook, instagram id
       </div>
     </div>
   );

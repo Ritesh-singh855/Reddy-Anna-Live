@@ -1,0 +1,12 @@
+# Optional: HSTS (only over HTTPS). Enable after confirming HTTPS on all subdomains.
+# <IfModule mod_headers.c>
+#   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+# </IfModule>
+
+# Optional: Serve modern image formats with long cache (configure MIME types via server).
+# <IfModule mod_expires.c>
+# ExpiresActive On
+# ExpiresByType image/webp "access plus 6 months"
+# ExpiresByType image/avif "access plus 6 months"
+# </IfModule>
+

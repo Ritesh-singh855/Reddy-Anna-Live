@@ -3,21 +3,31 @@
   <url>
     <loc>https://www.reddyannalive.in/</loc>
     <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+    <lastmod>2025-08-26</lastmod>
   </url>
   <url>
     <loc>https://www.reddyannalive.in/about-us</loc>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2025-08-26</lastmod>
   </url>
   <url>
     <loc>https://www.reddyannalive.in/contact-us</loc>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2025-08-26</lastmod>
   </url>
   <url>
     <loc>https://www.reddyannalive.in/privacyPolicy</loc>
     <priority>0.6</priority>
+    <changefreq>yearly</changefreq>
+    <lastmod>2025-08-26</lastmod>
   </url>
   <url>
     <loc>https://www.reddyannalive.in/termAndCondition</loc>
     <priority>0.6</priority>
+    <changefreq>yearly</changefreq>
+    <lastmod>2025-08-26</lastmod>
   </url>
 </urlset>

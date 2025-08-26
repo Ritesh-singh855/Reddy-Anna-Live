@@ -1,0 +1,25 @@
+# Enforce canonical URL: https://www.reddyannalive.in (HTTPS + www)
+# This file will be copied to the site root on build (Vite copies public/ to dist/).
+# Place this .htaccess in your hosting document root (public_html/) on GoDaddy.
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Redirect any non-HTTPS or non-www requests to the preferred canonical URL
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} !^www\.reddyannalive\.in$ [NC]
+  RewriteRule ^ https://www.reddyannalive.in%{REQUEST_URI} [R=301,L]
+
+  # React SPA fallback: serve index.html for client-side routes
+  # Do not rewrite existing files or directories
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule - [L]
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# Optional: HSTS (only over HTTPS). Enable if you control DNS and plan to stay on HTTPS.
+# <IfModule mod_headers.c>
+#   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+# </IfModule>
+

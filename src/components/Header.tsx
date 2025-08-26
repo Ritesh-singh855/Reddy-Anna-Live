@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logoPng from "../assets/logo.png";
+import logoWebp from "../assets/logo.webp";
 
 export const Header = () => {
   const isMobile = useIsMobile();
@@ -37,11 +38,19 @@ export const Header = () => {
             to="/"
             className="flex items-center hover:opacity-80 transition-opacity"
           >
-            <img
-              src={logo}
-              alt="Reddy Anna Book Logo"
-              className="w-32 h-32 md:w-36 md:h-36 object-contain -my-4"
-            />
+            <picture>
+              <source srcSet={logoWebp} type="image/webp" />
+              <img
+                src={logoPng}
+                alt="Reddy Anna Book Logo"
+                className="w-32 h-32 md:w-36 md:h-36 object-contain -my-4"
+                width={144}
+                height={144}
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
+              />
+            </picture>
 
             <span className="text-xl md:text-2xl font-semibold text-white">
               Reddy Anna

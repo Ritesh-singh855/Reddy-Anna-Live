@@ -1,17 +1,19 @@
+import React, { Suspense, lazy } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from "@/components/Header";
-import { Sidebar } from "@/components/Sidebar";
-import Index from "./pages/Index";
-import { AboutUs } from "./pages/AboutUs";
-import { ContactUs } from "./pages/ContactUs";
-import { PrivacyPolicy } from "./pages/PrivacyPolicy";
-import NotFound from "./pages/NotFound";
-import { TermsAndCondition } from "./pages/TermsAndCondition";
-import { WhatsAppButton } from "@/components/WhatsAppButton"; // ✅ import
+
+const Sidebar = lazy(() => import("@/components/Sidebar").then(m => ({ default: m.Sidebar })));
+const Index = lazy(() => import("./pages/Index"));
+const AboutUs = lazy(() => import("./pages/AboutUs").then(m => ({ default: m.AboutUs })));
+const ContactUs = lazy(() => import("./pages/ContactUs").then(m => ({ default: m.ContactUs })));
+const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy").then(m => ({ default: m.PrivacyPolicy })));
+const TermsAndCondition = lazy(() => import("./pages/TermsAndCondition").then(m => ({ default: m.TermsAndCondition })));
+const NotFound = lazy(() => import("./pages/NotFound"));
+const WhatsAppButton = lazy(() => import("@/components/WhatsAppButton").then(m => ({ default: m.WhatsAppButton })));
 
 const queryClient = new QueryClient();
 
@@ -24,25 +26,26 @@ const App = () => (
         <div className="min-h-screen bg-black">
           <Header />
           <div className="flex">
-            <Sidebar />
+            <Suspense fallback={null}>
+              <Sidebar />
+            </Suspense>
             <div className="flex-1">
-              <Routes>
-                <Route path="/" element={<Index />} />
-                <Route path="/about-us" element={<AboutUs />} />
-                <Route path="/contact-us" element={<ContactUs />} />
-                <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
-                <Route
-                  path="/termAndCondition"
-                  element={<TermsAndCondition />}
-                />
-                {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-                <Route path="*" element={<NotFound />} />
-              </Routes>
+              <Suspense fallback={null}>
+                <Routes>
+                  <Route path="/" element={<Index />} />
+                  <Route path="/about-us" element={<AboutUs />} />
+                  <Route path="/contact-us" element={<ContactUs />} />
+                  <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+                  <Route path="/termAndCondition" element={<TermsAndCondition />} />
+                  <Route path="*" element={<NotFound />} />
+                </Routes>
+              </Suspense>
             </div>
           </div>
 
-          {/* ✅ WhatsApp Floating Button */}
-          <WhatsAppButton />
+          <Suspense fallback={null}>
+            <WhatsAppButton />
+          </Suspense>
         </div>
       </BrowserRouter>
     </TooltipProvider>
