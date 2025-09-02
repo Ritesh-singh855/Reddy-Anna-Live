@@ -15,10 +15,24 @@ export const TermsAndCondition = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       <SEO
-        title="Terms of Use"
-        description="Read the Terms and Conditions of using Reddy Anna Live, including eligibility and site usage."
+        title="Terms & Conditions - Reddy Anna Live User Agreement"
+        description="Read the complete Terms and Conditions for using Reddy Anna Live betting platform. Understand user eligibility, account rules, betting terms, and platform usage guidelines."
+        keywords="reddy anna live terms conditions, user agreement, betting terms, platform rules, eligibility requirements, account terms, betting platform terms"
         canonical="https://www.reddyannalive.in/termAndCondition"
         robots="index,follow"
+        og={{
+          title: "Terms & Conditions - Reddy Anna Live User Agreement",
+          description: "Read the complete Terms and Conditions for using Reddy Anna Live betting platform. Understand user eligibility, account rules, betting terms, and platform usage guidelines.",
+          type: "website",
+          url: "https://www.reddyannalive.in/termAndCondition",
+          image: "https://www.reddyannalive.in/images/reddy-anna-live-og.png"
+        }}
+        twitter={{
+          card: "summary_large_image",
+          title: "Terms & Conditions - Reddy Anna Live User Agreement",
+          description: "Read the complete Terms and Conditions for using Reddy Anna Live betting platform. Understand user eligibility, account rules, betting terms, and platform usage guidelines.",
+          image: "https://www.reddyannalive.in/images/reddy-anna-live-og.png"
+        }}
         structuredData={[
           {
             "@context": "https://schema.org",
@@ -33,7 +47,7 @@ export const TermsAndCondition = () => {
             "@type": "WebPage",
             name: "Terms and Conditions - Reddy Anna Live",
             url: "https://www.reddyannalive.in/termAndCondition",
-            description: "Terms and Conditions for Reddy Anna Live.",
+            description: "Terms and Conditions for Reddy Anna Live - comprehensive user agreement and platform rules.",
           },
         ]}
       />

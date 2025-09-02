@@ -99,8 +99,8 @@ export const Sidebar = () => {
       </Sheet>
 
       {/* Desktop Sidebar */}
-      <aside className="hidden md:block w-64 bg-black border-r border-gray-800 min-h-screen">
-        <div className="p-6">
+      <aside className="hidden lg:block w-64 xl:w-72 bg-black border-r border-gray-800">
+        <div className="p-4 xl:p-6">
           <nav className="space-y-2">
             {navigationItems.slice(0, 8).map((item) => (
               <a
@@ -112,8 +112,8 @@ export const Sidebar = () => {
                   openWhatsApp();
                 }}
               >
-                <item.icon className="h-5 w-5" />
-                <span className="font-medium">{item.name}</span>
+                <item.icon className="h-5 w-5 flex-shrink-0" />
+                <span className="font-medium text-sm xl:text-base">{item.name}</span>
               </a>
             ))}
           </nav>
