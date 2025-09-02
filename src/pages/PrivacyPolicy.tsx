@@ -99,14 +99,37 @@ export const PrivacyPolicy = () => {
                   <strong>Personal Information You Provide:</strong> When you
                   use reddyannalive.in or interact with us, you may provide us
                   with information such as your name, email address, phone
-                  number, and any other information you choose to share.
+                  number, and any other information you choose to share. This includes
+                  information provided during account registration, customer support
+                  interactions, and when participating in our betting and gaming services.
+                  We collect this information to provide you with personalized services,
+                  process transactions, and maintain your account security.
                 </p>
                 <p>
                   <strong>Automatically Collected Information:</strong> We may
                   automatically collect information about your device and usage
                   of reddyannalive.in through cookies and similar technologies.
                   This information may include your IP address, browser type,
-                  operating system, and other usage details.
+                  operating system, device identifiers, and other usage details.
+                  We use this information to improve our services, analyze user
+                  behavior, prevent fraud, and ensure the security of our platform.
+                  This data helps us understand how users interact with our website
+                  and enables us to provide a better user experience.
+                </p>
+                <p>
+                  <strong>Transaction Information:</strong> We collect information
+                  about your betting activities, deposits, withdrawals, and gaming
+                  history. This includes details about the games you play, amounts
+                  wagered, winnings, and payment methods used. This information is
+                  essential for processing transactions, maintaining account records,
+                  and complying with regulatory requirements.
+                </p>
+                <p>
+                  <strong>Communication Data:</strong> We may collect information
+                  from your communications with us, including customer support
+                  inquiries, feedback, and any other correspondence. This helps
+                  us provide better customer service and resolve any issues you
+                  may encounter while using our platform.
                 </p>
 
                 <h3 className="text-xl font-semibold text-white">
@@ -116,16 +139,42 @@ export const PrivacyPolicy = () => {
                   <li>
                     <strong>Providing Services:</strong> To deliver the products
                     or services you requested and to provide customer support.
+                    This includes processing your betting transactions, managing
+                    your account, providing gaming services, and ensuring the
+                    security of your funds and personal information.
                   </li>
                   <li>
                     <strong>Improving Our Services:</strong> To understand how
                     reddyannalive.in is used, diagnose technical issues, and
-                    enhance user experience.
+                    enhance user experience. We analyze user behavior patterns
+                    to improve our platform's functionality, optimize performance,
+                    and develop new features that better serve our customers.
                   </li>
                   <li>
                     <strong>Communication:</strong> To respond to your
                     inquiries, send important updates, and provide information
-                    about our products and services.
+                    about our products and services. This includes sending
+                    notifications about account activities, promotional offers,
+                    and important platform updates.
+                  </li>
+                  <li>
+                    <strong>Security and Fraud Prevention:</strong> To protect
+                    against fraud, unauthorized access, and other security
+                    threats. We use your information to verify your identity,
+                    monitor for suspicious activities, and maintain the integrity
+                    of our platform.
+                  </li>
+                  <li>
+                    <strong>Legal Compliance:</strong> To comply with applicable
+                    laws, regulations, and legal obligations. This includes
+                    maintaining records as required by law and cooperating with
+                    regulatory authorities when necessary.
+                  </li>
+                  <li>
+                    <strong>Marketing and Promotions:</strong> To send you
+                    information about our services, special offers, and promotions
+                    that may be of interest to you. You can opt out of marketing
+                    communications at any time.
                   </li>
                 </ul>
 

@@ -100,7 +100,7 @@ export const ContactUs = () => {
                   <strong>Welcome to Reddy Anna Live Customer Support!</strong> Our dedicated team is here to provide you with exceptional service and support for all your betting needs. Whether you're a new user looking to create your first account or an existing customer needing assistance, we're available 24/7 to help you.
                 </p>
                 <p>
-                  <strong>New ID Registration:</strong> Getting started with Reddy Anna Live is quick and easy. Our support team will guide you through the entire process of creating your new online ID in just 2 minutes. No complex documentation or lengthy verification processes - just simple, fast registration.
+                  <strong>New ID Registration:</strong> Getting started with Reddy Anna Live is quick and easy. Our support team will guide you through the entire process of creating your new online ID in just 2 minutes. No complex documentation or lengthy verification processes - just simple, fast registration. Once you have your ID, you can start enjoying our <a href="/sports" className="text-yellow-400 hover:text-yellow-300 underline">sports betting services</a> and <a href="/casino" className="text-yellow-400 hover:text-yellow-300 underline">live casino games</a> immediately.
                 </p>
                 <p>
                   <strong>Account Support:</strong> Need help with deposits, withdrawals, or account management? Our experienced customer care representatives are trained to handle all types of account-related queries with professionalism and efficiency.

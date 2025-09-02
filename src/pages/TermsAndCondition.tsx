@@ -93,7 +93,20 @@ export const TermsAndCondition = () => {
                 By using reddyannalive.in, you acknowledge that you have read,
                 understood, and agree to be bound by these Terms and Conditions.
                 If you do not agree with any part of these Terms, please do not
-                use our website.
+                use our website. These Terms constitute a legally binding agreement
+                between you and reddyannalive.in, governing your use of our platform
+                and services. We reserve the right to modify these Terms at any time,
+                and your continued use of the website constitutes acceptance of any
+                changes made.
+              </p>
+              <p>
+                <strong>Important Notice:</strong> These Terms and Conditions apply
+                to all users of reddyannalive.in, including visitors, registered
+                users, and customers. By accessing or using our website, you confirm
+                that you are at least 18 years old and have the legal capacity to
+                enter into this agreement. If you are accessing our services on
+                behalf of a company or organization, you represent that you have
+                the authority to bind that entity to these Terms.
               </p>
 
               <h3 className="text-xl font-semibold text-white">
@@ -104,13 +117,37 @@ export const TermsAndCondition = () => {
                   <strong>Eligibility:</strong> You must be at least 18 years
                   old to use reddyannalive.in. By using our website, you
                   represent and warrant that you are at least 18 years old.
+                  You must also be legally permitted to participate in online
+                  betting and gaming activities in your jurisdiction. It is
+                  your responsibility to ensure that your use of our services
+                  complies with all applicable local, state, and federal laws.
                 </li>
                 <li>
                   <strong>Account Creation:</strong> Some features of
                   reddyannalive.in may require account registration. You are
                   responsible for maintaining the confidentiality of your
                   account information and for all activities that occur under
-                  your account.
+                  your account. You must provide accurate and complete information
+                  during registration and keep your account details up to date.
+                  You are prohibited from creating multiple accounts or sharing
+                  your account credentials with others.
+                </li>
+                <li>
+                  <strong>Prohibited Activities:</strong> You agree not to use
+                  reddyannalive.in for any unlawful purpose or in any way that
+                  could damage, disable, overburden, or impair our servers or
+                  networks. Prohibited activities include but are not limited to:
+                  attempting to gain unauthorized access to our systems, using
+                  automated tools to access our services, engaging in fraudulent
+                  activities, or violating any applicable laws or regulations.
+                </li>
+                <li>
+                  <strong>Responsible Gaming:</strong> We promote responsible
+                  gaming practices and encourage users to gamble responsibly.
+                  You should never bet more than you can afford to lose, and
+                  you should seek help if you believe you have a gambling problem.
+                  We provide tools and resources to help you manage your gaming
+                  activities, including deposit limits and self-exclusion options.
                 </li>
               </ul>
 
