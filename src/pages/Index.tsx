@@ -4,46 +4,42 @@ import { SEO } from "@/components/SEO";
 
 const SportsGrid = lazy(() => import("@/components/SportsGrid").then(m => ({ default: m.SportsGrid })));
 const LiveMatches = lazy(() => import("@/components/LiveMatches").then(m => ({ default: m.LiveMatches })));
+const LiveScores = lazy(() => import("@/components/LiveScores").then(m => ({ default: m.LiveScores })));
 const CasinoSection = lazy(() => import("@/components/CasinoSection").then(m => ({ default: m.CasinoSection })));
 const AboutSection = lazy(() => import("@/components/AboutSection").then(m => ({ default: m.AboutSection })));
+const Testimonials = lazy(() => import("@/components/Testimonials").then(m => ({ default: m.Testimonials })));
+const BlogSection = lazy(() => import("@/components/BlogSection").then(m => ({ default: m.BlogSection })));
 const Footer = lazy(() => import("@/components/Footer").then(m => ({ default: m.Footer })));
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Bet Live: Sports & Casino Offers"
-        description="Join Reddy Anna Live for the best online sports betting experience in India. Enjoy live casino games, instant payouts, secure transactions, and exclusive offers for new users. Bet on cricket, football, and more!"
+        title="Reddy Anna Live - Best Online Sports Betting & Casino Platform in India"
+        description="Join Reddy Anna Live for the ultimate online betting experience in India. Live cricket betting, football, tennis, casino games, teen patti, and more. Fast deposits, instant withdrawals, 24/7 support. Get your betting ID now!"
+        keywords="reddy anna live, online betting india, cricket betting, live casino, teen patti, sports betting, casino games, betting id, online id, fast withdrawal, instant deposit, reddy anna book, reddy anna login, reddy anna app, cricbet99, gold365, reddyannabook, instagram id, cricket id, casino id, fast deposit, auto deposit, auto withdrawal, live casino, all penal, ipl, bbl, sat20, cwc, psl, new id, trusted"
         canonical="https://www.reddyannalive.in/"
         robots="index,follow"
+        og={{
+          title: "Reddy Anna Live - Best Online Sports Betting & Casino Platform in India",
+          description: "Join Reddy Anna Live for the ultimate online betting experience in India. Live cricket betting, football, tennis, casino games, teen patti, and more. Fast deposits, instant withdrawals, 24/7 support.",
+          type: "website",
+          url: "https://www.reddyannalive.in/",
+          image: "https://www.reddyannalive.in/images/reddy-anna-live-og.png"
+        }}
+        twitter={{
+          card: "summary_large_image",
+          title: "Reddy Anna Live - Best Online Sports Betting & Casino Platform in India",
+          description: "Join Reddy Anna Live for the ultimate online betting experience in India. Live cricket betting, football, tennis, casino games, teen patti, and more.",
+          image: "https://www.reddyannalive.in/images/reddy-anna-live-og.png"
+        }}
         structuredData={[
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "Reddy Anna Live",
-            url: "https://www.reddyannalive.in/",
-            logo: "https://www.reddyannalive.in/images/reddy-anna-live-og.png",
-            sameAs: [
-              "https://www.instagram.com/",
-              "https://www.facebook.com/",
-              "https://x.com/",
-              "https://www.youtube.com/",
-            ],
-            contactPoint: [
-              {
-                "@type": "ContactPoint",
-                contactType: "customer support",
-                availableLanguage: ["en"],
-                areaServed: "IN",
-                url: "https://api.whatsapp.com/send?phone=918890051287",
-              },
-            ],
-          },
           {
             "@context": "https://schema.org",
             "@type": "WebSite",
             name: "Reddy Anna Live",
             url: "https://www.reddyannalive.in/",
+            description: "Best online sports betting and casino platform in India. Live cricket betting, football, tennis, casino games, teen patti, and more.",
             potentialAction: {
               "@type": "SearchAction",
               target: "https://www.reddyannalive.in/?q={search_term_string}",
@@ -53,20 +49,48 @@ const Index = () => {
           {
             "@context": "https://schema.org",
             "@type": "SiteNavigationElement",
-            name: ["Home", "About Us", "Contact Us", "Privacy Policy", "Terms and Conditions"],
+            name: ["Home", "Sports Betting", "Live Casino", "Live Matches", "About Us", "Contact Us"],
             url: [
               "https://www.reddyannalive.in/",
+              "https://www.reddyannalive.in/#sports",
+              "https://www.reddyannalive.in/#casino",
+              "https://www.reddyannalive.in/#live-matches",
               "https://www.reddyannalive.in/about-us",
               "https://www.reddyannalive.in/contact-us",
-              "https://www.reddyannalive.in/privacyPolicy",
-              "https://www.reddyannalive.in/termAndCondition",
             ],
           },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            name: "Online Sports Betting",
+            description: "Live cricket betting, football betting, tennis betting, and more sports betting options",
+            provider: {
+              "@type": "Organization",
+              name: "Reddy Anna Live"
+            },
+            areaServed: "India",
+            availableChannel: {
+              "@type": "ServiceChannel",
+              serviceUrl: "https://api.whatsapp.com/send?phone=918890051287"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            name: "Online Casino Games",
+            description: "Live casino games, teen patti, andar bahar, roulette, poker, and more casino games",
+            provider: {
+              "@type": "Organization",
+              name: "Reddy Anna Live"
+            },
+            areaServed: "India",
+            availableChannel: {
+              "@type": "ServiceChannel",
+              serviceUrl: "https://api.whatsapp.com/send?phone=918890051287"
+            }
+          }
         ]}
       />
-      <h1 style={{ display: "none" }}>
-        Reddy Anna Live - Best Online Betting Platform in India
-      </h1>
       <Hero />
       <Suspense fallback={null}>
         <SportsGrid />
@@ -75,10 +99,19 @@ const Index = () => {
         <LiveMatches />
       </Suspense>
       <Suspense fallback={null}>
+        <LiveScores />
+      </Suspense>
+      <Suspense fallback={null}>
         <CasinoSection />
       </Suspense>
       <Suspense fallback={null}>
         <AboutSection />
+      </Suspense>
+      <Suspense fallback={null}>
+        <Testimonials />
+      </Suspense>
+      <Suspense fallback={null}>
+        <BlogSection />
       </Suspense>
       <Suspense fallback={null}>
         <Footer />

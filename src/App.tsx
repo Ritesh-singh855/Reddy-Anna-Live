@@ -10,10 +10,15 @@ const Sidebar = lazy(() => import("@/components/Sidebar").then(m => ({ default: 
 const Index = lazy(() => import("./pages/Index"));
 const AboutUs = lazy(() => import("./pages/AboutUs").then(m => ({ default: m.AboutUs })));
 const ContactUs = lazy(() => import("./pages/ContactUs").then(m => ({ default: m.ContactUs })));
+const Casino = lazy(() => import("./pages/Casino").then(m => ({ default: m.Casino })));
+const Sports = lazy(() => import("./pages/Sports").then(m => ({ default: m.Sports })));
+const LiveMatches = lazy(() => import("./pages/LiveMatches").then(m => ({ default: m.LiveMatches })));
+const FAQ = lazy(() => import("./pages/FAQ").then(m => ({ default: m.FAQ })));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy").then(m => ({ default: m.PrivacyPolicy })));
 const TermsAndCondition = lazy(() => import("./pages/TermsAndCondition").then(m => ({ default: m.TermsAndCondition })));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const WhatsAppButton = lazy(() => import("@/components/WhatsAppButton").then(m => ({ default: m.WhatsAppButton })));
+const LiveChat = lazy(() => import("@/components/LiveChat").then(m => ({ default: m.LiveChat })));
 
 const queryClient = new QueryClient();
 
@@ -25,7 +30,7 @@ const App = () => (
       <BrowserRouter>
         <div className="min-h-screen bg-black">
           <Header />
-          <div className="flex">
+          <div className="flex flex-col lg:flex-row lg:min-h-[calc(100vh-4rem)]">
             <Suspense fallback={null}>
               <Sidebar />
             </Suspense>
@@ -35,6 +40,10 @@ const App = () => (
                   <Route path="/" element={<Index />} />
                   <Route path="/about-us" element={<AboutUs />} />
                   <Route path="/contact-us" element={<ContactUs />} />
+                  <Route path="/casino" element={<Casino />} />
+                  <Route path="/sports" element={<Sports />} />
+                  <Route path="/live-matches" element={<LiveMatches />} />
+                  <Route path="/faq" element={<FAQ />} />
                   <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
                   <Route path="/termAndCondition" element={<TermsAndCondition />} />
                   <Route path="*" element={<NotFound />} />
@@ -45,6 +54,10 @@ const App = () => (
 
           <Suspense fallback={null}>
             <WhatsAppButton />
+          </Suspense>
+          
+          <Suspense fallback={null}>
+            <LiveChat />
           </Suspense>
         </div>
       </BrowserRouter>

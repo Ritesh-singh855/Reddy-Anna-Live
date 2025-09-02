@@ -123,13 +123,19 @@ export const CasinoSection = () => {
   };
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section id="casino" className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         {/* Section Title */}
         <div className="w-full mb-12">
-          <h2 className="text-3xl font-bold text-center w-full py-4 px-8 rounded-lg bg-gradient-to-r from-yellow-400 to-orange-500 text-white shadow-lg transition-all duration-300 hover:shadow-xl">
-            Casino Games
-          </h2>
+          <div className="text-center">
+            <h2 className="text-3xl font-bold w-full py-4 px-8 rounded-lg bg-gradient-to-r from-yellow-400 to-orange-500 text-white shadow-lg transition-all duration-300 hover:shadow-xl mb-4">
+              Live Casino Games
+            </h2>
+            <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+              Experience the thrill of live casino games with Reddy Anna Live. Play popular casino games like roulette, 
+              poker, teen patti, andar bahar, and more with live dealers and real-time gameplay.
+            </p>
+          </div>
         </div>
 
         {/* Casino Games */}

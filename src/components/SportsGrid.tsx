@@ -46,11 +46,17 @@ export const SportsGrid = () => {
   };
 
   return (
-    <section className="py-12 bg-gray-900">
+    <section id="sports" className="py-12 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-orange-500 animate-pulse">
-          Popular Sports
-        </h2>
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold mb-4 text-white bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-orange-500 animate-pulse">
+            Popular Sports Betting
+          </h2>
+          <p className="text-gray-300 text-lg max-w-3xl mx-auto">
+            Bet on your favorite sports with Reddy Anna Live. From cricket and football to tennis and horse racing, 
+            we offer the best odds and live betting options for all major sports events in India.
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
           {sportsData.map((sport, index) => (
             <Card

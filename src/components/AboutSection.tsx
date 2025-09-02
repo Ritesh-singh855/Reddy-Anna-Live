@@ -4,87 +4,110 @@ import { Card, CardContent } from "@/components/ui/card";
 const benefits = [
   {
     icon: "🛡️",
-    title: "Trusted and reliable platform",
+    title: "Trusted & Secure Platform",
     description:
-      "Reddy Anna has built a solid reputation over the years as a trusted and reliable platform for online betting, with thousands of satisfied customers.",
+      "Reddy Anna Live has built a solid reputation over 13+ years as India's most trusted online betting platform, serving 10+ lakh satisfied customers with advanced security protocols.",
   },
   {
     icon: "🎯",
-    title: "Wide range of betting options",
+    title: "Comprehensive Betting Options",
     description:
-      "The platform offers a wide selection of betting options for every cricket fan's preferences, allowing users to bet on international matches, domestic leagues, or even specific events within a game.",
+      "From IPL cricket matches to live casino games, we offer the widest range of betting options including Teen Patti, Andar Bahar, Roulette, and international sports events.",
   },
   {
-    icon: "⏰",
-    title: "24-hour withdrawal service",
+    icon: "⚡",
+    title: "Instant Withdrawals",
     description:
-      "Reddy Anna is known for its 24-hour withdrawal service, ensuring that users can easily withdraw their winnings at any time.",
+      "Experience lightning-fast withdrawals with our instant payout system. Get your winnings within minutes, not hours or days like other platforms.",
   },
   {
     icon: "💻",
-    title: "User-friendly interface",
+    title: "User-Friendly Interface",
     description:
-      "The platform is designed to be user-friendly, making it easy for users to navigate and access various betting options.",
+      "Our platform features an intuitive, easy-to-navigate interface designed for both beginners and experienced bettors, ensuring a smooth betting experience.",
   },
   {
     icon: "📱",
-    title: "Mobile-friendly design",
+    title: "Mobile Optimized",
     description:
-      "The website is designed to be mobile-friendly, ensuring that users can access it easily from their smartphones or tablets.",
+      "Access Reddy Anna Live seamlessly on any device - smartphone, tablet, or desktop. Our responsive design ensures optimal performance across all platforms.",
   },
   {
     icon: "🎧",
-    title: "24/7 customer support",
+    title: "24/7 Customer Support",
     description:
-      "Reddy Anna offers excellent customer support, available round the clock to address any inquiries or concerns.",
+      "Our dedicated customer support team is available round the clock via WhatsApp to assist with any queries, account issues, or technical support needs.",
+  },
+  {
+    icon: "🏆",
+    title: "Best Odds in India",
+    description:
+      "We offer the most competitive odds and highest payouts in the Indian market, giving you maximum value for your bets and increasing your winning potential.",
+  },
+  {
+    icon: "🔒",
+    title: "No KYC Required",
+    description:
+      "Get started instantly without lengthy verification processes. Create your account in 2 minutes - no documents, no waiting, no hassle.",
+  },
+  {
+    icon: "🎮",
+    title: "Demo Account Available",
+    description:
+      "Practice with our demo account feature before playing with real money. Learn the games, understand the rules, and build confidence at no cost.",
   },
 ];
 
 const faqs = [
   {
-    question: "What is Reddy Anna?",
+    question: "What is Reddy Anna Live?",
     answer:
-      "In brief, Reddy Anna is a leading online betting site with numerous sports and games options for bettors. Top odds, user-friendly interface, and a safe environment make up the best features that define Reddy Anna’s experience in betting.",
+      "Reddy Anna Live is India's premier online betting platform established in 2010, offering cricket betting, live casino games, teen patti, and more. With 10+ lakh satisfied customers and 200+ branches, we provide secure, fast, and reliable betting services with the best odds in India.",
   },
   {
-    question: "How do I sign up for Reddy Anna?",
+    question: "How do I create a new Reddy Anna Live ID?",
     answer:
-      "To sign up, visit the homepage here and click on ‘Register’. Supply all needed information, verify your email address once done, then start playing within no time at all.",
+      "Creating your Reddy Anna Live ID is simple and fast. Contact us via WhatsApp, and our support team will guide you through the process. Your new ID will be created and activated within 2 minutes, with no KYC or documentation required.",
   },
   {
-    question: "Is Reddy Anna safe and secure?",
+    question: "Is Reddy Anna Live safe and secure?",
     answer:
-      "Yes, personal data transmission over SSL-encrypted lines is secured, and Reddy Anna complies with industry standards for privacy protection regulations.",
+      "Absolutely! Reddy Anna Live uses advanced encryption technology and follows strict security protocols to protect your personal information and funds. We have been serving customers safely for over 13 years with a proven track record of security and reliability.",
   },
   {
-    question: "What sports can be betted on with Reddy Anna?",
+    question: "What sports and games can I bet on?",
     answer:
-      "Reddy Anna offers a variety of sports such as cricket, soccer, baseball, tennis, and more. You can choose local and international games to gamble on.",
+      "We offer comprehensive betting options including cricket (IPL, international matches), football, tennis, basketball, kabaddi, live casino games (Roulette, Blackjack, Baccarat), and traditional Indian card games like Teen Patti, Andar Bahar, and 7 Up 7 Down.",
   },
   {
-    question: "Are there any bonuses for new users?",
+    question: "How fast are withdrawals on Reddy Anna Live?",
     answer:
-      "Yes, we have a welcome bonus for new users. For our current promotions, you will find them in the “Bonuses” section. Expect seasonal and special event bonuses too.",
+      "Withdrawals are processed instantly! Unlike other platforms that take hours or days, Reddy Anna Live provides instant withdrawals, allowing you to receive your winnings within minutes of requesting them.",
   },
   {
-    question: "How do I deposit money into my Reddy Anna account?",
+    question: "What payment methods are accepted?",
     answer:
-      "Depositing funds is simple; log in to your account, go to the “Deposit” section, select your preferred payment method, and follow the provided instructions.",
+      "We accept all major payment methods including UPI, net banking, credit/debit cards, and e-wallets. All transactions are secure, encrypted, and processed instantly for your convenience.",
   },
   {
-    question: "Which payment options are available on Reddy Anna?",
+    question: "Is customer support really available 24/7?",
     answer:
-      "Reddy Anna accepts credit/debit cards, net banking, UPI, and e-wallets. All transactions are secure and prompt.",
+      "Yes! Our dedicated customer support team is available 24 hours a day, 7 days a week via WhatsApp. We provide support in multiple Indian languages including English, Hindi, Telugu, Tamil, and Bengali.",
   },
   {
-    question: "How do I withdraw money from Reddy Anna?",
+    question: "Can I practice before playing with real money?",
     answer:
-      "Log in to your account, click on “Withdraw” at the top right, select your preferred withdrawal method, enter the amount, and follow the instructions.",
+      "Absolutely! Reddy Anna Live offers a demo account feature that allows you to practice and understand the games before playing with real money. This helps you learn the rules and build confidence at no cost.",
   },
   {
-    question: "Can I use my mobile phone to place bets?",
+    question: "What makes Reddy Anna Live different from other platforms?",
     answer:
-      "Yes! Our mobile platform is fully functional, allowing you to place bets, deposit, and withdraw money using your smartphone or tablet.",
+      "Reddy Anna Live stands out with our 13+ years of experience, instant withdrawals, no KYC requirement, best odds in India, 24/7 support, and comprehensive game selection. We prioritize customer satisfaction and security above all else.",
+  },
+  {
+    question: "How much does it cost to get started?",
+    answer:
+      "Getting started with Reddy Anna Live is simple and affordable. Contact us via WhatsApp to get your online ID and access to all our betting options, games, and services with no additional hidden charges or monthly fees.",
   },
 ];
 
@@ -108,8 +131,7 @@ export const AboutSection = () => {
             Best Online Betting Platform in India
           </h3>
           <Button
-            size="lg"
-            className="bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600"
+            className="h-11 rounded-md px-8 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600"
             onClick={openWhatsApp}
           >
             Sign Up
@@ -123,16 +145,24 @@ export const AboutSection = () => {
           </h3>
           <div className="max-w-4xl mx-auto text-center text-gray-600 leading-relaxed">
             <p className="mb-6">
-              Since 2010, Reddy Anna has been the best online betting ID website
-              for cricket betting. It is secure and easy to use for new betting
-              players. This website's owner is Reddy Anna. We provide Reddy Anna
-              ID only on WhatsApp.
+              <strong>Reddy Anna Live</strong> has been India's most trusted and reliable online betting platform since 2010. 
+              With over 13 years of experience in the industry, we have established ourselves as the premier destination 
+              for cricket betting, live casino games, and traditional Indian card games.
             </p>
             <p className="mb-6">
-              Get new Reddy Anna Online ID in one minute on WhatsApp. 24 Hours
-              Refill and Withdrawal service for all our customers. We have more
-              than 10 Lakh happy customers on our platform. We are present in
-              more than 200 offline branches.
+              Our platform serves more than <strong>10 lakh satisfied customers</strong> across India with a comprehensive 
+              network of <strong>200+ authorized branches</strong>. We specialize in providing secure, fast, and reliable 
+              online betting services with 24/7 customer support and instant withdrawal facilities.
+            </p>
+            <p className="mb-6">
+              <strong>What makes us different?</strong> We offer the most competitive odds, fastest payouts, and the widest 
+              variety of betting options. From IPL and international cricket matches to live casino games like Teen Patti, 
+              Andar Bahar, and Roulette, we have everything a betting enthusiast needs.
+            </p>
+            <p className="mb-6">
+              Getting started is incredibly simple - create your Reddy Anna Online ID in just <strong>2 minutes</strong>. 
+              No KYC required, no lengthy documentation process. Our demo account feature allows you to practice and 
+              understand the games before playing with real money.
             </p>
           </div>
         </div>

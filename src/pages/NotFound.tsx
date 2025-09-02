@@ -15,10 +15,24 @@ const NotFound = () => {
   return (
     <div className="min-h-screen bg-black text-white flex items-center">
       <SEO
-        title="404 Not Found"
-        description="The page you’re looking for could not be found on Reddy Anna Live."
+        title="404 Page Not Found - Reddy Anna Live"
+        description="The page you're looking for could not be found on Reddy Anna Live. Navigate back to our homepage or explore our betting platform, casino games, and customer support options."
+        keywords="404 error, page not found, reddy anna live, betting platform, casino games, customer support"
         robots="noindex,follow"
         canonical="https://www.reddyannalive.in/404"
+        og={{
+          title: "404 Page Not Found - Reddy Anna Live",
+          description: "The page you're looking for could not be found on Reddy Anna Live. Navigate back to our homepage or explore our betting platform.",
+          type: "website",
+          url: "https://www.reddyannalive.in/404",
+          image: "https://www.reddyannalive.in/images/reddy-anna-live-og.png"
+        }}
+        twitter={{
+          card: "summary_large_image",
+          title: "404 Page Not Found - Reddy Anna Live",
+          description: "The page you're looking for could not be found on Reddy Anna Live. Navigate back to our homepage or explore our betting platform.",
+          image: "https://www.reddyannalive.in/images/reddy-anna-live-og.png"
+        }}
       />
       <div className="max-w-7xl mx-auto w-full px-4">
         {/* Hero-like header */}

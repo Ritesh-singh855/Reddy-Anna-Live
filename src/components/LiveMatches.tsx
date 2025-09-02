@@ -64,11 +64,17 @@ export const LiveMatches = () => {
   };
 
   return (
-    <section className="py-12 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+    <section id="live-matches" className="py-12 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-white text-center">
-          Live Matches
-        </h2>
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-bold mb-4 text-white">
+            Live Sports Matches
+          </h2>
+          <p className="text-gray-300 text-lg max-w-3xl mx-auto">
+            Watch live sports and place bets in real-time. Get the best odds on ongoing cricket, football, tennis, 
+            and other sports matches with instant betting options and live score updates.
+          </p>
+        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {liveMatches.map((match, index) => (
             <Card

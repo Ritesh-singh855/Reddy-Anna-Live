@@ -16,10 +16,24 @@ export const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       <SEO
-        title="Privacy Policy & Data Practices"
-        description="Read the Privacy Policy for Reddy Anna Live. Learn how we handle your data, cookies, and security."
+        title="Privacy Policy - Reddy Anna Live Data Protection & Security"
+        description="Read Reddy Anna Live's comprehensive Privacy Policy. Learn how we protect your personal data, handle cookies, ensure security, and maintain your privacy while using our betting platform."
+        keywords="reddy anna live privacy policy, data protection, user privacy, security policy, cookie policy, personal information, data handling, betting platform privacy"
         canonical="https://www.reddyannalive.in/privacyPolicy"
         robots="index,follow"
+        og={{
+          title: "Privacy Policy - Reddy Anna Live Data Protection & Security",
+          description: "Read Reddy Anna Live's comprehensive Privacy Policy. Learn how we protect your personal data, handle cookies, ensure security, and maintain your privacy.",
+          type: "website",
+          url: "https://www.reddyannalive.in/privacyPolicy",
+          image: "https://www.reddyannalive.in/images/reddy-anna-live-og.png"
+        }}
+        twitter={{
+          card: "summary_large_image",
+          title: "Privacy Policy - Reddy Anna Live Data Protection & Security",
+          description: "Read Reddy Anna Live's comprehensive Privacy Policy. Learn how we protect your personal data, handle cookies, ensure security, and maintain your privacy.",
+          image: "https://www.reddyannalive.in/images/reddy-anna-live-og.png"
+        }}
         structuredData={[
           {
             "@context": "https://schema.org",
@@ -34,7 +48,7 @@ export const PrivacyPolicy = () => {
             "@type": "WebPage",
             name: "Privacy Policy - Reddy Anna Live",
             url: "https://www.reddyannalive.in/privacyPolicy",
-            description: "Privacy Policy for Reddy Anna Live.",
+            description: "Privacy Policy for Reddy Anna Live - comprehensive data protection and security information.",
           },
         ]}
       />
@@ -173,8 +187,7 @@ export const PrivacyPolicy = () => {
 
               <div className="mt-8">
                 <Button
-                  size="lg"
-                  className="bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600"
+                  className="h-11 rounded-md px-8 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600"
                   onClick={openWhatsApp}
                 >
                   Reddy Anna Customer Support
@@ -219,7 +232,7 @@ export const PrivacyPolicy = () => {
                       Affordable ID
                     </h3>
                     <p className="text-gray-400">
-                      Get your Online ID for just 500 Rs with instant approval.
+                      Get your Online ID with instant approval.
                     </p>
                   </CardContent>
                 </Card>
