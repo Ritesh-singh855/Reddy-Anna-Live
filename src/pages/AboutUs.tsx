@@ -90,7 +90,7 @@ export const AboutUs = () => {
                   Our platform serves millions of users across India with a comprehensive network of 200+ authorized branches. We specialize in providing secure, fast, and reliable online betting services with 24/7 customer support and instant withdrawal facilities.
                 </p>
                 <p>
-                  <strong>Why Choose Reddy Anna Live?</strong> We offer the most competitive odds, fastest payouts, and the widest variety of betting options. From IPL and international cricket matches to live casino games like Teen Patti, Andar Bahar, and Roulette, we have everything a betting enthusiast needs.
+                  <strong>Why Choose Reddy Anna Live?</strong> We offer the most competitive odds, fastest payouts, and the widest variety of betting options. From IPL and international cricket matches to live casino games like Teen Patti, Andar Bahar, and Roulette, we have everything a betting enthusiast needs. Explore our comprehensive <a href="/sports" className="text-yellow-400 hover:text-yellow-300 underline">sports betting platform</a> and discover our exciting <a href="/casino" className="text-yellow-400 hover:text-yellow-300 underline">live casino games</a> for the ultimate gaming experience.
                 </p>
                 <p>
                   Getting started is simple - create your Reddy Anna Online ID in just 2 minutes. No KYC required, no lengthy documentation process. Our demo account feature allows you to practice and understand the games before playing with real money.

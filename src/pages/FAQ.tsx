@@ -32,11 +32,11 @@ const faqCategories = [
     faqs: [
       {
         question: "What sports can I bet on?",
-        answer: "Reddy Anna Live offers comprehensive betting options including cricket (IPL, international matches), football, tennis, basketball, kabaddi, and many more sports with live betting options."
+        answer: "Reddy Anna Live offers comprehensive betting options including cricket (IPL, international matches), football, tennis, basketball, kabaddi, and many more sports with live betting options. Check out our <a href='/sports' className='text-yellow-400 hover:text-yellow-300 underline'>sports betting page</a> for a complete list of available sports and tournaments."
       },
       {
         question: "What casino games are available?",
-        answer: "We offer a wide range of live casino games including Roulette, Blackjack, Baccarat, Dragon Tiger, and traditional Indian card games like Teen Patti, Andar Bahar, and 7 Up 7 Down."
+        answer: "We offer a wide range of live casino games including Roulette, Blackjack, Baccarat, Dragon Tiger, and traditional Indian card games like Teen Patti, Andar Bahar, and 7 Up 7 Down. Visit our <a href='/casino' className='text-yellow-400 hover:text-yellow-300 underline'>casino games page</a> to explore all available games and their features."
       },
       {
         question: "Can I practice before playing with real money?",
