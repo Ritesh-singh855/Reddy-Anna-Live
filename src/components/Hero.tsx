@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Title } from "@radix-ui/react-toast";
 
 export const Hero = () => {
   const openWhatsApp = () => {
@@ -21,6 +20,7 @@ export const Hero = () => {
             Join 10+ lakh satisfied customers with instant withdrawals, 24/7 support, and the best odds in India.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+ 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 className="h-12 rounded-md px-8 bg-green-500 hover:bg-green-600 text-white font-semibold flex items-center gap-2 w-full sm:w-auto shadow-lg hover:shadow-xl transition-all"
@@ -66,11 +66,6 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.4)_1px,transparent_0)] bg-[length:20px_20px]"></div>
       </div>
     </section>
   );

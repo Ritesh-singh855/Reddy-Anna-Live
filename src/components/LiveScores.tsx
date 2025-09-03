@@ -197,7 +197,10 @@ export const LiveScores = () => {
                 </div>
 
                 {/* Bet Button */}
-                <button className="w-full mt-4 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-black font-semibold py-2 px-4 rounded-lg transition-colors">
+                <button 
+                className="w-full mt-4 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-black font-semibold py-2 px-4 rounded-lg transition-colors"
+                onClick={()=>openWhatsApp()}
+                >
                   Place Bet on Reddy Anna Live
                 </button>
               </CardContent>
