@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { openWhatsApp } from "@/utils/whatsapp";
+import { Footer } from "@/components/Footer";
 
 import { SEO } from "@/components/SEO";
 
@@ -328,27 +329,21 @@ export const ContactUs = () => {
         </div>
       </section>
 
-      {/* Disclaimer */}
-      <section className="py-8 bg-red-900">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-white font-medium">
-            Disclaimer:- This Website is only for 18+ users. If you are from
-            Please leave the website immediately if you are not eligible. Be aware of fraudsters, we only deal via WhatsApp
-            website immediately. Be aware of fraudsters, we only deal via
-            WhatsApp
-          </p>
-        </div>
-      </section>
+      {/* Footer */}
+      <Footer />
 
-      {/* Copyright */}
-      <section className="py-6 bg-black">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-gray-400 text-sm">
-            Copyright © {new Date().getFullYear()} Reddy Anna Live. All Rights
-            Reserved.
-          </p>
-        </div>
-      </section>
+      {/* SEO Keywords (hidden for search engines) */}
+      <div style={{ display: "none" }}>
+        cricbet99, lotus365, mahadev book, mahakal book, reddy anna app,
+        reddy anna betting, reddy anna book, reddy anna book 247, reddy
+        anna book live login, reddy anna book login, reddy anna club,
+        reddy anna club live, reddy anna customer care number, reddy
+        anna live, reddy anna live casino, reddy anna live cricket,
+        reddy anna live login, reddy anna live score, reddy anna live
+        today, reddy anna login, reddy anna online, reddy anna online
+        book id, reddy anna website, reddy anna whatsapp number,
+        reddybook, reddy anna, online id, cricket id, casino id, fast deposit, fast withdrawal, auto deposit, auto withdrawal, gold365, live casino, all penal, ipl, bbl, sat20, cwc, psl, new id, trusted, reddyannabook, instagram id
+      </div>
     </div>
   );
 };

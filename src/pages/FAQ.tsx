@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { openWhatsApp } from "@/utils/whatsapp";
 import { SEO } from "@/components/SEO";
+import { Footer } from "@/components/Footer";
 
 const faqCategories = [
   {
@@ -230,6 +231,9 @@ export const FAQ = () => {
           </Button>
         </div>
       </section>
+
+      {/* Footer */}
+      <Footer />
 
       {/* SEO Keywords (hidden for search engines) */}
       <div style={{ display: "none" }}>

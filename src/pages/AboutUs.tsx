@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { openWhatsApp } from "@/utils/whatsapp";
+import { Footer } from "@/components/Footer";
 
 import { SEO } from "@/components/SEO";
 
@@ -346,26 +347,9 @@ export const AboutUs = () => {
         </div>
       </section>
 
-      {/* Disclaimer */}
-      <section className="py-8 bg-red-900">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-white font-medium">
-            Disclaimer:- This Website is only for 18+ users. Please leave the
-            website immediately if online betting is not permitted in your
-            region. Be aware of fraudsters, we only deal via WhatsApp.
-          </p>
-        </div>
-      </section>
+      {/* Footer */}
+      <Footer />
 
-      {/* Copyright */}
-      <section className="py-6 bg-black">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-gray-400 text-sm">
-            Copyright © {new Date().getFullYear()} Reddy Anna Live. All Rights
-            Reserved.
-          </p>
-        </div>
-      </section>
       {/* SEO Keywords (hidden for search engines) */}
       <div style={{ display: "none" }}>
         cricbet99, lotus365, mahadev book, mahakal book, reddy anna app, reddy
