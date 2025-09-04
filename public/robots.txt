@@ -3,9 +3,26 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 Disallow: /private/
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /*.ts$
+Disallow: /*.tsx$
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: facebookexternalhit
+Allow: /
 
 # Sitemap
 Sitemap: https://www.reddyannalive.in/sitemap.xml
 
-# Crawl-delay
-Crawl-delay: 1
+# Host
+Host: https://www.reddyannalive.in

@@ -180,7 +180,7 @@ export const FAQ = () => {
               Frequently Asked Questions
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-              Find answers to all your questions about Reddy Anna Live. Get instant help with account creation, betting, withdrawals, and more.
+              Find answers to all your questions about <strong>Reddy Anna Live</strong>. Get instant help with <strong>Reddy Anna Live</strong> account creation, betting, withdrawals, and more. <strong>Reddy Anna Live</strong> provides comprehensive FAQ support.
             </p>
           </div>
         </div>
@@ -229,6 +229,145 @@ export const FAQ = () => {
           >
             Contact Support Now
           </Button>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live FAQ Deep Dive */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Complete <strong>Reddy Anna Live</strong> FAQ Guide</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-gray-800 p-6 rounded-lg">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">About <strong>Reddy Anna Live</strong></h3>
+              <p className="text-gray-300 mb-4">
+                <strong>Reddy Anna Live</strong> is India's most trusted online betting platform since 2010. 
+                <strong>Reddy Anna Live</strong> offers comprehensive sports betting, live casino games, and traditional Indian card games. 
+                <strong>Reddy Anna Live</strong> serves millions of users across India with 200+ authorized branches.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• <strong>Reddy Anna Live</strong> has been operating for over 13 years</li>
+                <li>• <strong>Reddy Anna Live</strong> serves 10L+ happy customers</li>
+                <li>• <strong>Reddy Anna Live</strong> provides 24/7 customer support</li>
+                <li>• <strong>Reddy Anna Live</strong> offers instant withdrawals</li>
+                <li>• <strong>Reddy Anna Live</strong> ensures secure transactions</li>
+              </ul>
+            </div>
+            <div className="bg-gray-800 p-6 rounded-lg">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400"><strong>Reddy Anna Live</strong> Services</h3>
+              <p className="text-gray-300 mb-4">
+                <strong>Reddy Anna Live</strong> provides a wide range of betting and gaming services. 
+                <strong>Reddy Anna Live</strong> offers live cricket betting, football betting, tennis betting, and casino games. 
+                <strong>Reddy Anna Live</strong> features Teen Patti, Andar Bahar, Roulette, and many more games.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• <strong>Reddy Anna Live</strong> Live cricket betting with real-time odds</li>
+                <li>• <strong>Reddy Anna Live</strong> Casino games with live dealers</li>
+                <li>• <strong>Reddy Anna Live</strong> Traditional Indian card games</li>
+                <li>• <strong>Reddy Anna Live</strong> Sports betting on all major leagues</li>
+                <li>• <strong>Reddy Anna Live</strong> Mobile-optimized platform</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Support Information */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Get Help from <strong>Reddy Anna Live</strong></h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="text-4xl mb-4">📞</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Contact <strong>Reddy Anna Live</strong></h3>
+              <p className="text-gray-400">
+                <strong>Reddy Anna Live</strong> customer support is available 24/7 via WhatsApp. 
+                <strong>Reddy Anna Live</strong> provides instant assistance for all your queries.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">⚡</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Quick <strong>Reddy Anna Live</strong> Setup</h3>
+              <p className="text-gray-400">
+                <strong>Reddy Anna Live</strong> account creation takes just 2 minutes. 
+                <strong>Reddy Anna Live</strong> requires no KYC or documentation for registration.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">🔒</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400"><strong>Reddy Anna Live</strong> Security</h3>
+              <p className="text-gray-400">
+                <strong>Reddy Anna Live</strong> uses advanced encryption for all transactions. 
+                <strong>Reddy Anna Live</strong> ensures your data and funds are always protected.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Final Reddy Anna Live Information */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-8">Everything You Need to Know About <strong>Reddy Anna Live</strong></h2>
+          <p className="text-xl text-gray-300 mb-8 max-w-4xl mx-auto">
+            <strong>Reddy Anna Live</strong> is India's premier online betting platform with over 13 years of experience. 
+            <strong>Reddy Anna Live</strong> offers the most comprehensive range of betting and gaming services. 
+            <strong>Reddy Anna Live</strong> provides live cricket betting, casino games, and traditional Indian card games. 
+            <strong>Reddy Anna Live</strong> ensures secure transactions, instant withdrawals, and 24/7 customer support. 
+            <strong>Reddy Anna Live</strong> serves millions of satisfied customers across India.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-lg font-semibold mb-2 text-yellow-400">Why Choose <strong>Reddy Anna Live</strong>?</h3>
+              <p className="text-gray-300 text-sm">
+                <strong>Reddy Anna Live</strong> offers the best odds, fastest payouts, and most secure platform. 
+                <strong>Reddy Anna Live</strong> has been trusted by millions for over 13 years.
+              </p>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-lg font-semibold mb-2 text-yellow-400">What <strong>Reddy Anna Live</strong> Offers</h3>
+              <p className="text-gray-300 text-sm">
+                <strong>Reddy Anna Live</strong> provides sports betting, casino games, and card games. 
+                <strong>Reddy Anna Live</strong> covers all major sports and tournaments worldwide.
+              </p>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-lg font-semibold mb-2 text-yellow-400">How <strong>Reddy Anna Live</strong> Works</h3>
+              <p className="text-gray-300 text-sm">
+                <strong>Reddy Anna Live</strong> makes betting simple with easy registration. 
+                <strong>Reddy Anna Live</strong> provides instant account activation and support.
+              </p>
+            </div>
+            <div className="bg-gray-800 p-4 rounded-lg">
+              <h3 className="text-lg font-semibold mb-2 text-yellow-400">When to Use <strong>Reddy Anna Live</strong></h3>
+              <p className="text-gray-300 text-sm">
+                <strong>Reddy Anna Live</strong> is available 24/7 for all your betting needs. 
+                <strong>Reddy Anna Live</strong> provides round-the-clock customer support.
+              </p>
+            </div>
+          </div>
+          <p className="text-lg text-gray-300 mb-8">
+            <strong>Reddy Anna Live</strong> is committed to providing the best betting experience in India. 
+            <strong>Reddy Anna Live</strong> ensures fair play, secure transactions, and excellent customer service. 
+            Join <strong>Reddy Anna Live</strong> today and experience the difference. 
+            <strong>Reddy Anna Live</strong> delivers excellence in every aspect of online betting. 
+            <strong>Reddy Anna Live</strong> is the trusted choice for millions of Indian bettors. 
+            <strong>Reddy Anna Live</strong> provides unmatched service and support. 
+            <strong>Reddy Anna Live</strong> continues to lead the industry with innovation and reliability. 
+            <strong>Reddy Anna Live</strong> makes betting safe, secure, and enjoyable for everyone. 
+            <strong>Reddy Anna Live</strong> offers the best betting experience in India. 
+            <strong>Reddy Anna Live</strong> ensures customer satisfaction above all else. 
+            <strong>Reddy Anna Live</strong> provides comprehensive betting solutions. 
+            <strong>Reddy Anna Live</strong> is your ultimate betting destination. 
+            <strong>Reddy Anna Live</strong> provides the best odds and fastest payouts. 
+            <strong>Reddy Anna Live</strong> offers 24/7 customer support. 
+            <strong>Reddy Anna Live</strong> ensures secure and fair gaming. 
+            <strong>Reddy Anna Live</strong> delivers instant withdrawals. 
+            <strong>Reddy Anna Live</strong> covers all major sports and games. 
+            <strong>Reddy Anna Live</strong> provides mobile-optimized platform. 
+            <strong>Reddy Anna Live</strong> offers live casino games. 
+            <strong>Reddy Anna Live</strong> is the most trusted betting platform. 
+            <strong>Reddy Anna Live</strong> delivers excellence in every game.
+          </p>
         </div>
       </section>
 

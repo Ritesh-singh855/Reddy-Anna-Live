@@ -1,0 +1,77 @@
+{
+  "name": "Reddy Anna Live - Online Sports Betting & Casino",
+  "short_name": "Reddy Anna Live",
+  "description": "Best online sports betting and casino platform in India. Live cricket betting, football, tennis, casino games, teen patti, and more.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#f59e0b",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["sports", "entertainment", "games"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/reddy-anna-live-og.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/reddy-anna-live-og.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Reddy Anna Live Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Sports Betting",
+      "short_name": "Sports",
+      "description": "Bet on live sports matches",
+      "url": "/sports",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Live Casino",
+      "short_name": "Casino",
+      "description": "Play live casino games",
+      "url": "/casino",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Live Matches",
+      "short_name": "Live",
+      "description": "Watch live sports matches",
+      "url": "/live-matches",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
