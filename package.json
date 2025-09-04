@@ -1,7 +1,11 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "reddy-anna-live",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Reddy Anna Live - Best Online Sports Betting & Casino Platform in India",
+  "keywords": ["reddy anna live", "sports betting", "casino", "online betting", "india"],
+  "author": "Reddy Anna Live",
+  "homepage": "https://www.reddyannalive.in",
   "type": "module",
   "scripts": {
     "dev": "vite",

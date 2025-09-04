@@ -176,11 +176,11 @@ export const Sports = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Sports Betting
+              Sports Betting at Reddy Anna Live
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-              Bet on your favorite sports with live odds, real-time updates, and instant payouts. 
-              From cricket and football to tennis and basketball - we cover it all.
+              Bet on your favorite sports with live odds, real-time updates, and instant payouts at Reddy Anna Live. 
+              From cricket and football to tennis and basketball - Reddy Anna Live covers it all.
             </p>
             <Button
               className="h-11 rounded-md px-8 bg-white text-black hover:bg-gray-100 font-semibold"
@@ -195,7 +195,7 @@ export const Sports = () => {
       {/* Sports Grid */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Sports We Cover</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Sports We Cover at Reddy Anna Live</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {sports.map((sport, index) => (
               <Card key={index} className="bg-gray-900 border-gray-700 hover:border-yellow-400 transition-colors">
@@ -225,7 +225,7 @@ export const Sports = () => {
       {/* Betting Features */}
       <section className="py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Our Sports Betting?</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Reddy Anna Live Sports Betting?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {bettingFeatures.map((feature, index) => (
               <div key={index} className="text-center">
@@ -241,7 +241,7 @@ export const Sports = () => {
       {/* Popular Leagues */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Popular Leagues & Tournaments</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Popular Leagues & Tournaments at Reddy Anna Live</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {popularLeagues.map((league, index) => (
               <Card key={index} className="bg-gray-900 border-gray-700 hover:border-yellow-400 transition-colors">
@@ -266,7 +266,7 @@ export const Sports = () => {
       {/* Betting Markets */}
       <section className="py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Betting Markets</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Betting Markets at Reddy Anna Live</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl mb-4">🏆</div>
@@ -295,7 +295,7 @@ export const Sports = () => {
       {/* How to Bet Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">How to Start Sports Betting</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">How to Start Sports Betting with Reddy Anna Live</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl mb-4">1️⃣</div>
@@ -321,13 +321,223 @@ export const Sports = () => {
         </div>
       </section>
 
+      {/* Reddy Anna Live Sports Benefits */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Why Choose Reddy Anna Live for Sports Betting?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="text-4xl mb-4">🏆</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Best Odds</h3>
+              <p className="text-gray-400">
+                Get the best sports betting odds with Reddy Anna Live. 
+                Reddy Anna Live offers competitive odds for all major sports events.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">⚡</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Fast Payouts</h3>
+              <p className="text-gray-400">
+                Receive instant payouts with Reddy Anna Live. 
+                Reddy Anna Live ensures quick and secure withdrawal processing.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">🔒</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Secure Platform</h3>
+              <p className="text-gray-400">
+                Your sports betting is secure with Reddy Anna Live. 
+                Reddy Anna Live uses advanced security measures for your protection.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">📱</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Mobile Betting</h3>
+              <p className="text-gray-400">
+                Bet on sports from anywhere with Reddy Anna Live mobile platform. 
+                Reddy Anna Live provides seamless mobile betting experience.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">🎯</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Live Betting</h3>
+              <p className="text-gray-400">
+                Enjoy live sports betting with Reddy Anna Live. 
+                Reddy Anna Live offers real-time betting on live matches.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">💬</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Expert Support</h3>
+              <p className="text-gray-400">
+                Get expert support for sports betting with Reddy Anna Live. 
+                Reddy Anna Live team is available 24/7 for assistance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Sports Coverage */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Reddy Anna Live Sports Coverage</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Cricket Betting at Reddy Anna Live</h3>
+              <p className="text-gray-400 mb-4">
+                Experience the best cricket betting with Reddy Anna Live. From IPL to international matches, 
+                Reddy Anna Live covers all major cricket tournaments. Bet on live cricket with Reddy Anna Live's advanced platform.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• IPL Betting at Reddy Anna Live</li>
+                <li>• International Cricket with Reddy Anna Live</li>
+                <li>• T20 World Cup Betting at Reddy Anna Live</li>
+                <li>• Live Cricket Betting with Reddy Anna Live</li>
+              </ul>
+            </div>
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Football Betting at Reddy Anna Live</h3>
+              <p className="text-gray-400 mb-4">
+                Enjoy live football betting with Reddy Anna Live. Premier League, La Liga, and more 
+                available at Reddy Anna Live. Football betting made easy with Reddy Anna Live.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• Premier League Betting at Reddy Anna Live</li>
+                <li>• Champions League with Reddy Anna Live</li>
+                <li>• World Cup Betting at Reddy Anna Live</li>
+                <li>• Live Football Betting with Reddy Anna Live</li>
+              </ul>
+            </div>
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Tennis Betting at Reddy Anna Live</h3>
+              <p className="text-gray-400 mb-4">
+                Watch live tennis matches with Reddy Anna Live. Grand Slams, ATP, and WTA tours 
+                available at Reddy Anna Live. Live tennis betting with Reddy Anna Live.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• Wimbledon Betting at Reddy Anna Live</li>
+                <li>• US Open Betting with Reddy Anna Live</li>
+                <li>• French Open at Reddy Anna Live</li>
+                <li>• Live Tennis Betting with Reddy Anna Live</li>
+              </ul>
+            </div>
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Basketball Betting at Reddy Anna Live</h3>
+              <p className="text-gray-400 mb-4">
+                Experience live basketball betting with Reddy Anna Live. NBA, EuroLeague, and more 
+                available at Reddy Anna Live. Live basketball betting with Reddy Anna Live.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• NBA Betting at Reddy Anna Live</li>
+                <li>• EuroLeague with Reddy Anna Live</li>
+                <li>• College Basketball at Reddy Anna Live</li>
+                <li>• Live Basketball Betting with Reddy Anna Live</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Sports Features */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Reddy Anna Live Sports Features</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-4xl mb-4">📊</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Live Odds at Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Get real-time odds updates with Reddy Anna Live. 
+                Reddy Anna Live provides the most accurate live odds for all sports.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">⚡</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Instant Betting with Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Place bets instantly during live matches with Reddy Anna Live. 
+                Reddy Anna Live ensures fast and secure sports betting.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">📱</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Mobile Sports Betting at Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Bet on sports from your mobile with Reddy Anna Live. 
+                Reddy Anna Live mobile platform is optimized for sports betting.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">🎯</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Live Statistics at Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Access comprehensive live statistics with Reddy Anna Live. 
+                Reddy Anna Live provides detailed match data for better betting decisions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Sports Summary */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Reddy Anna Live Sports Betting Experience</h2>
+          <div className="bg-gray-900 rounded-lg p-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Why Choose Reddy Anna Live for Sports?</h3>
+                <p className="text-gray-400 mb-4">
+                  Reddy Anna Live is the premier destination for sports betting and live coverage. 
+                  With Reddy Anna Live, you get access to the best sports events with competitive odds. 
+                  Reddy Anna Live ensures that you never miss any action with our comprehensive sports coverage.
+                </p>
+                <p className="text-gray-400 mb-4">
+                  Our Reddy Anna Live platform offers real-time odds, instant betting, and live statistics. 
+                  Reddy Anna Live provides a seamless experience for all sports enthusiasts. 
+                  Trust Reddy Anna Live for all your sports betting needs.
+                </p>
+                <ul className="text-gray-400 space-y-2">
+                  <li>• HD Live Streaming at Reddy Anna Live</li>
+                  <li>• Real-time Odds with Reddy Anna Live</li>
+                  <li>• Instant Betting at Reddy Anna Live</li>
+                  <li>• Live Statistics from Reddy Anna Live</li>
+                  <li>• 24/7 Support at Reddy Anna Live</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Reddy Anna Live Sports Benefits</h3>
+                <p className="text-gray-400 mb-4">
+                  Experience the ultimate sports betting with Reddy Anna Live. Reddy Anna Live 
+                  offers the most comprehensive sports coverage with advanced features. 
+                  Join Reddy Anna Live today for the best sports betting experience.
+                </p>
+                <p className="text-gray-400 mb-4">
+                  Reddy Anna Live provides secure, fast, and reliable sports betting services. 
+                  With Reddy Anna Live, you can bet on sports with confidence. 
+                  Reddy Anna Live is your trusted partner for online sports betting.
+                </p>
+                <ul className="text-gray-400 space-y-2">
+                  <li>• Secure Sports Betting with Reddy Anna Live</li>
+                  <li>• Fast Withdrawals at Reddy Anna Live</li>
+                  <li>• Multiple Payment Options at Reddy Anna Live</li>
+                  <li>• Live Chat Support at Reddy Anna Live</li>
+                  <li>• Mobile App from Reddy Anna Live</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">Ready to Start Sports Betting?</h2>
+          <h2 className="text-3xl font-bold mb-8">Ready to Start Sports Betting with Reddy Anna Live?</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Join thousands of sports enthusiasts betting on their favorite teams and players 
-            with the best odds and instant payouts.
+            with the best odds and instant payouts at Reddy Anna Live.
           </p>
           <Button
             className="h-11 rounded-md px-8 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600"

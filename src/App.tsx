@@ -5,6 +5,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from "@/components/Header";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { GoogleAnalytics, GoogleSearchConsole } from "@/components/GoogleAnalytics";
+import { PerformanceOptimizer } from "@/components/PerformanceOptimizer";
 
 const Sidebar = lazy(() => import("@/components/Sidebar").then(m => ({ default: m.Sidebar })));
 const Index = lazy(() => import("./pages/Index"));
@@ -28,8 +31,12 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <GoogleAnalytics />
+        <GoogleSearchConsole />
+        <PerformanceOptimizer />
         <div className="min-h-screen bg-black">
           <Header />
+          <Breadcrumb />
           <div className="flex flex-col lg:flex-row lg:min-h-[calc(100vh-4rem)]">
             <Suspense fallback={null}>
               <Sidebar />

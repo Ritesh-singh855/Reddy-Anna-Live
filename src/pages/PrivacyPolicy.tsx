@@ -58,8 +58,11 @@ export const PrivacyPolicy = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Privacy Policy
+              Privacy Policy - Reddy Anna Live
             </h1>
+            <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
+              Your privacy is important to Reddy Anna Live. Learn how Reddy Anna Live protects your data and ensures your privacy.
+            </p>
           </div>
         </div>
       </section>
@@ -85,12 +88,12 @@ export const PrivacyPolicy = () => {
               <div className="space-y-6 text-gray-300 leading-relaxed">
                 <p>Effective Date: 29/1/2024 </p>
                 <p>
-                  Welcome to reddyannalive.in! At reddyannalive.in, we are
+                  Welcome to reddyannalive.in! At Reddy Anna Live, we are
                   committed to protecting and respecting your privacy. This
-                  Privacy Policy outlines how we collect, use, disclose, and
-                  protect your personal information. By using our website or any
-                  services provided by reddyannalive.in, you agree to the terms
-                  outlined in this Privacy Policy.
+                  Privacy Policy outlines how Reddy Anna Live collects, uses, discloses, and
+                  protects your personal information. By using our website or any
+                  services provided by Reddy Anna Live, you agree to the terms
+                  outlined in this Reddy Anna Live Privacy Policy.
                 </p>
 
                 <h3 className="text-xl font-semibold text-white">
@@ -98,39 +101,39 @@ export const PrivacyPolicy = () => {
                 </h3>
                 <p>
                   <strong>Personal Information You Provide:</strong> When you
-                  use reddyannalive.in or interact with us, you may provide us
+                  use Reddy Anna Live or interact with us, you may provide Reddy Anna Live
                   with information such as your name, email address, phone
                   number, and any other information you choose to share. This includes
                   information provided during account registration, customer support
-                  interactions, and when participating in our betting and gaming services.
-                  We collect this information to provide you with personalized services,
-                  process transactions, and maintain your account security.
+                  interactions, and when participating in our Reddy Anna Live betting and gaming services.
+                  Reddy Anna Live collects this information to provide you with personalized services,
+                  process transactions, and maintain your Reddy Anna Live account security.
                 </p>
                 <p>
-                  <strong>Automatically Collected Information:</strong> We may
+                  <strong>Automatically Collected Information:</strong> Reddy Anna Live may
                   automatically collect information about your device and usage
-                  of reddyannalive.in through cookies and similar technologies.
+                  of Reddy Anna Live through cookies and similar technologies.
                   This information may include your IP address, browser type,
                   operating system, device identifiers, and other usage details.
-                  We use this information to improve our services, analyze user
-                  behavior, prevent fraud, and ensure the security of our platform.
-                  This data helps us understand how users interact with our website
-                  and enables us to provide a better user experience.
+                  Reddy Anna Live uses this information to improve our services, analyze user
+                  behavior, prevent fraud, and ensure the security of our Reddy Anna Live platform.
+                  This data helps Reddy Anna Live understand how users interact with our website
+                  and enables Reddy Anna Live to provide a better user experience.
                 </p>
                 <p>
-                  <strong>Transaction Information:</strong> We collect information
+                  <strong>Transaction Information:</strong> Reddy Anna Live collects information
                   about your betting activities, deposits, withdrawals, and gaming
                   history. This includes details about the games you play, amounts
                   wagered, winnings, and payment methods used. This information is
-                  essential for processing transactions, maintaining account records,
-                  and complying with regulatory requirements.
+                  essential for processing transactions, maintaining Reddy Anna Live account records,
+                  and complying with regulatory requirements at Reddy Anna Live.
                 </p>
                 <p>
-                  <strong>Communication Data:</strong> We may collect information
+                  <strong>Communication Data:</strong> Reddy Anna Live may collect information
                   from your communications with us, including customer support
                   inquiries, feedback, and any other correspondence. This helps
-                  us provide better customer service and resolve any issues you
-                  may encounter while using our platform.
+                  Reddy Anna Live provide better customer service and resolve any issues you
+                  may encounter while using our Reddy Anna Live platform.
                 </p>
 
                 <h3 className="text-xl font-semibold text-white">
@@ -332,6 +335,220 @@ export const PrivacyPolicy = () => {
                     <div className="text-gray-400">Support</div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Privacy Protection */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Reddy Anna Live Privacy Protection</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="text-4xl mb-4">🔒</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Data Security</h3>
+              <p className="text-gray-400">
+                Your data is protected with advanced encryption at Reddy Anna Live. 
+                Reddy Anna Live uses industry-standard security measures to safeguard your information.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">🛡️</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Privacy Controls</h3>
+              <p className="text-gray-400">
+                You have full control over your data with Reddy Anna Live. 
+                Reddy Anna Live provides easy-to-use privacy settings and data management options.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">📋</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Transparency</h3>
+              <p className="text-gray-400">
+                Reddy Anna Live is transparent about data collection and usage. 
+                Reddy Anna Live provides clear information about how your data is handled.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">⚡</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Fast Processing</h3>
+              <p className="text-gray-400">
+                Your privacy requests are processed quickly by Reddy Anna Live. 
+                Reddy Anna Live ensures prompt response to all privacy-related inquiries.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">🎯</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Compliance</h3>
+              <p className="text-gray-400">
+                Reddy Anna Live complies with all privacy regulations. 
+                Reddy Anna Live follows best practices for data protection and privacy.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">💬</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Support</h3>
+              <p className="text-gray-400">
+                Get help with privacy questions from Reddy Anna Live support team. 
+                Reddy Anna Live provides dedicated privacy support for all users.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Data Handling */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Reddy Anna Live Data Handling</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Reddy Anna Live Data Collection</h3>
+              <p className="text-gray-400 mb-4">
+                Reddy Anna Live collects only necessary data to provide our services. 
+                Reddy Anna Live ensures that data collection is minimal and purposeful. 
+                Your privacy is protected at every step with Reddy Anna Live.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• Account Information at Reddy Anna Live</li>
+                <li>• Transaction Data from Reddy Anna Live</li>
+                <li>• Usage Analytics at Reddy Anna Live</li>
+                <li>• Communication Records with Reddy Anna Live</li>
+              </ul>
+            </div>
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Reddy Anna Live Data Usage</h3>
+              <p className="text-gray-400 mb-4">
+                Reddy Anna Live uses your data responsibly and ethically. 
+                Reddy Anna Live processes data only for legitimate business purposes. 
+                Trust Reddy Anna Live with your data protection needs.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• Service Improvement at Reddy Anna Live</li>
+                <li>• Security Enhancement with Reddy Anna Live</li>
+                <li>• Customer Support from Reddy Anna Live</li>
+                <li>• Legal Compliance at Reddy Anna Live</li>
+              </ul>
+            </div>
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Reddy Anna Live Data Storage</h3>
+              <p className="text-gray-400 mb-4">
+                Your data is stored securely with Reddy Anna Live. 
+                Reddy Anna Live uses encrypted storage systems for maximum security. 
+                Reddy Anna Live maintains strict access controls for your data.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• Encrypted Storage at Reddy Anna Live</li>
+                <li>• Secure Servers with Reddy Anna Live</li>
+                <li>• Access Controls at Reddy Anna Live</li>
+                <li>• Regular Backups by Reddy Anna Live</li>
+              </ul>
+            </div>
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Reddy Anna Live Data Sharing</h3>
+              <p className="text-gray-400 mb-4">
+                Reddy Anna Live does not sell your personal data. 
+                Reddy Anna Live shares data only when necessary and with your consent. 
+                Reddy Anna Live maintains strict data sharing policies.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• No Data Sales at Reddy Anna Live</li>
+                <li>• Limited Sharing with Reddy Anna Live</li>
+                <li>• Consent-Based Sharing at Reddy Anna Live</li>
+                <li>• Legal Requirements with Reddy Anna Live</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Privacy Rights */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Your Rights with Reddy Anna Live</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-4xl mb-4">👁️</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Access Your Data at Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Request access to your personal data from Reddy Anna Live. 
+                Reddy Anna Live provides easy access to your information.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">✏️</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Correct Data with Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Update or correct your information with Reddy Anna Live. 
+                Reddy Anna Live makes it easy to keep your data accurate.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">🗑️</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Delete Data from Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Request deletion of your data from Reddy Anna Live. 
+                Reddy Anna Live respects your right to data deletion.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">📤</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Export Data from Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Export your data from Reddy Anna Live in standard formats. 
+                Reddy Anna Live provides data portability options.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Privacy Summary */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Reddy Anna Live Privacy Commitment</h2>
+          <div className="bg-gray-900 rounded-lg p-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Why Trust Reddy Anna Live with Your Privacy?</h3>
+                <p className="text-gray-400 mb-4">
+                  Reddy Anna Live is committed to protecting your privacy and personal data. 
+                  With Reddy Anna Live, you can trust that your information is handled with the highest standards of security. 
+                  Reddy Anna Live implements comprehensive privacy protection measures to ensure your data safety.
+                </p>
+                <p className="text-gray-400 mb-4">
+                  Our Reddy Anna Live platform uses advanced encryption and security protocols. 
+                  Reddy Anna Live regularly updates our privacy practices to meet the latest standards. 
+                  Trust Reddy Anna Live for secure and private betting experiences.
+                </p>
+                <ul className="text-gray-400 space-y-2">
+                  <li>• Advanced Encryption at Reddy Anna Live</li>
+                  <li>• Regular Security Updates by Reddy Anna Live</li>
+                  <li>• Privacy-First Approach with Reddy Anna Live</li>
+                  <li>• Transparent Data Practices at Reddy Anna Live</li>
+                  <li>• User Control with Reddy Anna Live</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Reddy Anna Live Privacy Benefits</h3>
+                <p className="text-gray-400 mb-4">
+                  Experience the benefits of Reddy Anna Live's privacy protection. 
+                  Reddy Anna Live ensures that your personal information remains confidential and secure. 
+                  Join Reddy Anna Live for a privacy-focused betting experience.
+                </p>
+                <p className="text-gray-400 mb-4">
+                  Reddy Anna Live provides comprehensive privacy controls and data protection. 
+                  With Reddy Anna Live, you have full control over your personal information. 
+                  Reddy Anna Live is your trusted partner for secure online betting.
+                </p>
+                <ul className="text-gray-400 space-y-2">
+                  <li>• Complete Data Protection with Reddy Anna Live</li>
+                  <li>• Privacy Controls at Reddy Anna Live</li>
+                  <li>• Secure Transactions through Reddy Anna Live</li>
+                  <li>• Confidential Support from Reddy Anna Live</li>
+                  <li>• Trusted Platform by Reddy Anna Live</li>
+                </ul>
               </div>
             </div>
           </div>

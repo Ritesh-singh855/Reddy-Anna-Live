@@ -28,7 +28,7 @@ export interface SEOProps {
 }
 
 export const DEFAULT_KEYWORDS =
-  "cricbet99, lotus365, mahadev book, mahakal book, reddy anna app, reddy anna betting, reddy anna book, reddy anna book 247, reddy anna book live login, reddy anna book login, reddy anna club, reddy anna club live, reddy anna customer care number, reddy anna live, reddy anna live casino, reddy anna live cricket, reddy anna live login, reddy anna live score, reddy anna live today, reddy anna login, reddy anna online, reddy anna online book id, reddy anna website, reddy anna whatsapp number, reddybook, reddy anna, online id, cricket id, casino id, fast deposit, fast withdrawal, auto deposit, auto withdrawal, gold365, live casino, all penal, ipl, bbl, sat20, cwc, psl, new id, trusted, reddyannabook, instagram id, cricbet99, gold365";
+  "reddy anna live, online betting india, cricket betting, live casino, teen patti, sports betting, casino games, betting id, online id, fast withdrawal, instant deposit, reddy anna book, reddy anna login, reddy anna app, cricbet99, gold365, reddyannabook, instagram id, cricket id, casino id, fast deposit, auto deposit, auto withdrawal, live casino, all penal, ipl, bbl, sat20, cwc, psl, new id, trusted, mahadev book, mahakal book, lotus365";
 
 function upsertMetaByName(name: string, content?: string) {
   if (!content) return;
@@ -108,6 +108,17 @@ export function SEO({
     if (description) upsertMetaByName("description", description);
     if (keywords) upsertMetaByName("keywords", keywords);
     if (robots) upsertMetaByName("robots", robots);
+    
+    // Additional SEO meta tags
+    upsertMetaByName("author", "Reddy Anna Live");
+    upsertMetaByName("publisher", "Reddy Anna Live");
+    upsertMetaByName("copyright", "Reddy Anna Live");
+    upsertMetaByName("language", "en");
+    upsertMetaByName("geo.region", "IN");
+    upsertMetaByName("geo.country", "India");
+    upsertMetaByName("distribution", "global");
+    upsertMetaByName("rating", "general");
+    upsertMetaByName("revisit-after", "1 days");
 
     if (canonical) upsertLink("canonical", canonical);
 
