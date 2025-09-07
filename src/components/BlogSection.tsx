@@ -3,10 +3,10 @@ import { Badge } from "@/components/ui/badge";
 import { Calendar, User, ArrowRight } from "lucide-react";
 import featuredImage from "../assets/ipl2025.webp";
 import regularPostsImage1 from '../assets/How-to-Play-Teen-Patti-on-Reddy-Anna-2.webp';
-import regularPostsImage2 from '../assets/Tips-to-Make-Money-by-Online-Sports-Betting.jpg';
+import regularPostsImage2 from '../assets/Tips-to-Make-Money-by-Online-Sports-Betting.webp';
 import regularPostsImage3 from '../assets/Premier-League-Betting-Tips.webp';
 import regularPostsImage4 from '../assets/bankroll-management-sports-betting.webp';
-import regularPostsImage5 from '../assets/top-10-Andar-Bahar-online-casino.jpg';
+import regularPostsImage5 from '../assets/top-10-Andar-Bahar-online-casino.webp';
 
 
 
