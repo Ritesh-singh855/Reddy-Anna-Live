@@ -98,34 +98,34 @@ export const ContactUs = () => {
               </h2>
               <div className="space-y-6 text-gray-300 leading-relaxed">
                 <p>
-                  <strong>Welcome to Reddy Anna Live Customer Support!</strong> Our dedicated team is here to provide you with exceptional service and support for all your betting needs. Whether you're a new user looking to create your first account or an existing customer needing assistance, we're available 24/7 to help you.
+                  <strong>Welcome to Reddy Anna Live Customer Support!</strong> The <strong>Reddy Anna Live</strong> dedicated team is here to provide you with exceptional service and support for all your betting needs. Whether you're a new user looking to create your first <strong>Reddy Anna Live</strong> account or an existing <strong>Reddy Anna Live</strong> customer needing assistance, <strong>Reddy Anna Live</strong> is available 24/7 to help you.
                 </p>
                 <p>
-                  <strong>New ID Registration:</strong> Getting started with Reddy Anna Live is quick and easy. Our support team will guide you through the entire process of creating your new online ID in just 2 minutes. No complex documentation or lengthy verification processes - just simple, fast registration. Once you have your ID, you can start enjoying our <a href="/sports" className="text-yellow-400 hover:text-yellow-300 underline">sports betting services</a> and <a href="/casino" className="text-yellow-400 hover:text-yellow-300 underline">live casino games</a> immediately.
+                  <strong>New ID Registration:</strong> Getting started with <strong>Reddy Anna Live</strong> is quick and easy. The <strong>Reddy Anna Live</strong> support team will guide you through the entire process of creating your new <strong>Reddy Anna Live</strong> online ID in just 2 minutes. No complex documentation or lengthy verification processes - just simple, fast <strong>Reddy Anna Live</strong> registration. Once you have your <strong>Reddy Anna Live</strong> ID, you can start enjoying our <a href="/sports" className="text-yellow-400 hover:text-yellow-300 underline">sports betting services</a> and <a href="/casino" className="text-yellow-400 hover:text-yellow-300 underline">live casino games</a> immediately.
                 </p>
                 <p>
-                  <strong>Account Support:</strong> Need help with deposits, withdrawals, or account management? Our experienced customer care representatives are trained to handle all types of account-related queries with professionalism and efficiency.
+                  <strong>Account Support:</strong> Need help with deposits, withdrawals, or account management? The <strong>Reddy Anna Live</strong> experienced customer care representatives are trained to handle all types of <strong>Reddy Anna Live</strong> account-related queries with professionalism and efficiency. <strong>Reddy Anna Live</strong> ensures all your account needs are met promptly.
                 </p>
                 <p>
-                  <strong>Technical Assistance:</strong> Facing any technical issues with our platform? Our technical support team is equipped to resolve login problems, payment issues, and any other technical difficulties you might encounter.
+                  <strong>Technical Assistance:</strong> Facing any technical issues with the <strong>Reddy Anna Live</strong> platform? The <strong>Reddy Anna Live</strong> technical support team is equipped to resolve login problems, payment issues, and any other technical difficulties you might encounter with <strong>Reddy Anna Live</strong>.
                 </p>
                 <p>
-                  <strong>Game Support:</strong> New to betting or need clarification on game rules? Our support team can explain betting options, game rules, and help you understand the various sports and casino games available on our platform.
+                  <strong>Game Support:</strong> New to betting or need clarification on game rules? The <strong>Reddy Anna Live</strong> support team can explain betting options, game rules, and help you understand the various sports and casino games available on the <strong>Reddy Anna Live</strong> platform. <strong>Reddy Anna Live</strong> provides comprehensive game support for all users.
                 </p>
                 <p>
-                  <strong>Language Support:</strong> We provide customer support in multiple Indian languages including English, Hindi, Telugu, Tamil, and Bengali to ensure clear communication and better assistance.
+                  <strong>Language Support:</strong> <strong>Reddy Anna Live</strong> provides customer support in multiple Indian languages including English, Hindi, Telugu, Tamil, and Bengali to ensure clear communication and better assistance. <strong>Reddy Anna Live</strong> understands the importance of language accessibility for all users.
                 </p>
                 <p>
-                  <strong>Response Time:</strong> Our customer support team is committed to providing quick responses. Most queries are resolved within minutes, and complex issues are addressed within 24 hours. We understand that in the world of online betting, time is crucial, and we ensure our support is both fast and effective.
+                  <strong>Response Time:</strong> The <strong>Reddy Anna Live</strong> customer support team is committed to providing quick responses. Most <strong>Reddy Anna Live</strong> queries are resolved within minutes, and complex issues are addressed within 24 hours. <strong>Reddy Anna Live</strong> understands that in the world of online betting, time is crucial, and <strong>Reddy Anna Live</strong> ensures our support is both fast and effective.
                 </p>
                 <p>
-                  <strong>Multiple Contact Channels:</strong> While WhatsApp is our primary support channel, we also provide assistance through our website chat system and email support. Our team is trained to handle all types of queries across different communication channels with the same level of professionalism and expertise.
+                  <strong>Multiple Contact Channels:</strong> While WhatsApp is the <strong>Reddy Anna Live</strong> primary support channel, <strong>Reddy Anna Live</strong> also provides assistance through our website chat system and email support. The <strong>Reddy Anna Live</strong> team is trained to handle all types of queries across different communication channels with the same level of professionalism and expertise.
                 </p>
                 <p>
-                  <strong>Security and Privacy:</strong> All your communications with our support team are completely secure and confidential. We follow strict data protection protocols to ensure your personal information and betting activities remain private and secure at all times.
+                  <strong>Security and Privacy:</strong> All your communications with the <strong>Reddy Anna Live</strong> support team are completely secure and confidential. <strong>Reddy Anna Live</strong> follows strict data protection protocols to ensure your personal information and betting activities remain private and secure at all times. <strong>Reddy Anna Live</strong> prioritizes your privacy and security.
                 </p>
                 <p>
-                  <strong>Feedback and Suggestions:</strong> We value your feedback and suggestions for improving our services. Our support team actively collects customer feedback and forwards it to our development team to continuously enhance the user experience on our platform.
+                  <strong>Feedback and Suggestions:</strong> <strong>Reddy Anna Live</strong> values your feedback and suggestions for improving our services. The <strong>Reddy Anna Live</strong> support team actively collects customer feedback and forwards it to our development team to continuously enhance the user experience on the <strong>Reddy Anna Live</strong> platform. <strong>Reddy Anna Live</strong> is committed to continuous improvement.
                 </p>
               </div>
 
@@ -235,7 +235,7 @@ export const ContactUs = () => {
       {/* Contact Methods Section */}
       <section className="py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">How to Reach Us</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">How to Reach <strong>Reddy Anna Live</strong></h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-4xl mb-4">📱</div>
@@ -243,7 +243,7 @@ export const ContactUs = () => {
                 WhatsApp Support
               </h3>
               <p className="text-gray-400 mb-4">
-                Get instant support via WhatsApp. Our team responds within minutes for quick assistance.
+                Get instant support via WhatsApp. The <strong>Reddy Anna Live</strong> team responds within minutes for quick assistance. <strong>Reddy Anna Live</strong> WhatsApp support is available 24/7.
               </p>
               <p className="text-yellow-400 font-semibold">+91-8890051287</p>
             </div>
@@ -251,7 +251,7 @@ export const ContactUs = () => {
               <div className="text-4xl mb-4">⏰</div>
               <h3 className="text-xl font-semibold mb-3">24/7 Availability</h3>
               <p className="text-gray-400 mb-4">
-                Our customer support team is available round the clock to assist you with any queries or issues.
+                The <strong>Reddy Anna Live</strong> customer support team is available round the clock to assist you with any queries or issues. <strong>Reddy Anna Live</strong> never sleeps when it comes to customer service.
               </p>
               <p className="text-yellow-400 font-semibold">Always Online</p>
             </div>
@@ -259,7 +259,7 @@ export const ContactUs = () => {
               <div className="text-4xl mb-4">🌐</div>
               <h3 className="text-xl font-semibold mb-3">Multi-Language Support</h3>
               <p className="text-gray-400 mb-4">
-                We provide support in multiple Indian languages for better communication and understanding.
+                <strong>Reddy Anna Live</strong> provides support in multiple Indian languages for better communication and understanding. <strong>Reddy Anna Live</strong> ensures language is never a barrier to excellent service.
               </p>
               <p className="text-yellow-400 font-semibold">English, Hindi, Telugu, Tamil, Bengali</p>
             </div>
@@ -270,34 +270,34 @@ export const ContactUs = () => {
       {/* Support Categories Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">What We Can Help You With</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">What <strong>Reddy Anna Live</strong> Can Help You With</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl mb-4">🆔</div>
               <h3 className="text-xl font-semibold mb-3">New ID Creation</h3>
               <p className="text-gray-400">
-                Quick and easy account setup with instant approval and activation.
+                <strong>Reddy Anna Live</strong> quick and easy account setup with instant approval and activation. <strong>Reddy Anna Live</strong> makes ID creation simple and fast.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">💰</div>
               <h3 className="text-xl font-semibold mb-3">Deposits & Withdrawals</h3>
               <p className="text-gray-400">
-                Assistance with payment methods, transaction issues, and withdrawal processing.
+                <strong>Reddy Anna Live</strong> assistance with payment methods, transaction issues, and withdrawal processing. <strong>Reddy Anna Live</strong> ensures smooth financial transactions.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🔐</div>
               <h3 className="text-xl font-semibold mb-3">Account Security</h3>
               <p className="text-gray-400">
-                Help with password recovery, account verification, and security concerns.
+                <strong>Reddy Anna Live</strong> help with password recovery, account verification, and security concerns. <strong>Reddy Anna Live</strong> prioritizes account security and safety.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🎮</div>
               <h3 className="text-xl font-semibold mb-3">Game Assistance</h3>
               <p className="text-gray-400">
-                Rules explanation, betting guidance, and technical game support.
+                <strong>Reddy Anna Live</strong> rules explanation, betting guidance, and technical game support. <strong>Reddy Anna Live</strong> provides comprehensive game assistance for all players.
               </p>
             </div>
           </div>
@@ -307,25 +307,70 @@ export const ContactUs = () => {
       {/* FAQ Section */}
       <section className="py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions about <strong>Reddy Anna Live</strong></h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-semibold mb-3 text-yellow-400">How quickly can I get a new ID?</h3>
-              <p className="text-gray-400">New Reddy Anna Live IDs are created and activated within 2 minutes of registration. No waiting time required.</p>
+              <p className="text-gray-400">New <strong>Reddy Anna Live</strong> IDs are created and activated within 2 minutes of registration. <strong>Reddy Anna Live</strong> ensures no waiting time required for ID creation.</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-3 text-yellow-400">What documents are required?</h3>
-              <p className="text-gray-400">No KYC or documentation is required for account creation. Simple registration process with minimal information.</p>
+              <p className="text-gray-400">No KYC or documentation is required for <strong>Reddy Anna Live</strong> account creation. <strong>Reddy Anna Live</strong> simple registration process with minimal information.</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-3 text-yellow-400">How fast are withdrawals?</h3>
-              <p className="text-gray-400">Withdrawals are processed instantly. You can receive your winnings within minutes of requesting.</p>
+              <p className="text-gray-400"><strong>Reddy Anna Live</strong> withdrawals are processed instantly. You can receive your <strong>Reddy Anna Live</strong> winnings within minutes of requesting.</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-3 text-yellow-400">Is customer support really 24/7?</h3>
-              <p className="text-gray-400">Yes, our customer support team is available 24 hours a day, 7 days a week via WhatsApp.</p>
+              <p className="text-gray-400">Yes, the <strong>Reddy Anna Live</strong> customer support team is available 24 hours a day, 7 days a week via WhatsApp. <strong>Reddy Anna Live</strong> never closes for customer service.</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Final CTA Section */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-8">Get in Touch with <strong>Reddy Anna Live</strong> Today!</h2>
+          <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+            <strong>Reddy Anna Live</strong> customer support is here to help you with all your betting needs. 
+            <strong>Reddy Anna Live</strong> provides 24/7 assistance for account creation, deposits, withdrawals, and game support. 
+            Contact <strong>Reddy Anna Live</strong> today and experience the best customer service in the industry. 
+            <strong>Reddy Anna Live</strong> is committed to your success and satisfaction. 
+            Trust <strong>Reddy Anna Live</strong> for all your betting support needs. 
+            <strong>Reddy Anna Live</strong> delivers excellence in customer service. 
+            Choose <strong>Reddy Anna Live</strong> for the best support experience.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="bg-gray-900 p-4 rounded-lg">
+              <h3 className="text-lg font-semibold mb-2 text-yellow-400">Why Contact <strong>Reddy Anna Live</strong>?</h3>
+              <p className="text-gray-300 text-sm">
+                <strong>Reddy Anna Live</strong> provides the best customer support in India. 
+                <strong>Reddy Anna Live</strong> ensures quick response times and professional assistance.
+              </p>
+            </div>
+            <div className="bg-gray-900 p-4 rounded-lg">
+              <h3 className="text-lg font-semibold mb-2 text-yellow-400">What <strong>Reddy Anna Live</strong> Offers</h3>
+              <p className="text-gray-300 text-sm">
+                <strong>Reddy Anna Live</strong> offers comprehensive support for all betting needs. 
+                <strong>Reddy Anna Live</strong> provides assistance in multiple languages.
+              </p>
+            </div>
+            <div className="bg-gray-900 p-4 rounded-lg">
+              <h3 className="text-lg font-semibold mb-2 text-yellow-400">How <strong>Reddy Anna Live</strong> Helps</h3>
+              <p className="text-gray-300 text-sm">
+                <strong>Reddy Anna Live</strong> makes betting easy with expert support. 
+                <strong>Reddy Anna Live</strong> ensures your questions are answered quickly.
+              </p>
+            </div>
+          </div>
+          <Button
+            className="h-11 rounded-md px-8 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600"
+            onClick={() => openWhatsApp()}
+          >
+            Contact <strong>Reddy Anna Live</strong> Support Now
+          </Button>
         </div>
       </section>
 

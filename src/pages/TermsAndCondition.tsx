@@ -57,8 +57,12 @@ export const TermsAndCondition = () => {
         <div className="w-full px-4">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Terms and Conditions
+              Terms and Conditions - Reddy Anna Live
             </h1>
+            <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
+              Read the complete Terms and Conditions for using Reddy Anna Live. 
+              Understand your rights and responsibilities with Reddy Anna Live platform.
+            </p>
           </div>
         </div>
       </section>
@@ -82,32 +86,32 @@ export const TermsAndCondition = () => {
               <p>Effective Date: 29.01.2024</p>
 
               <p>
-                By accessing and using reddyannalive.in, you agree to comply
+                By accessing and using Reddy Anna Live, you agree to comply
                 with and be bound by the following Terms and Conditions. Please
-                read these Terms carefully before using our website.
+                read these Terms carefully before using our Reddy Anna Live website.
               </p>
 
               <h3 className="text-xl font-semibold text-white">
                 1. Acceptance of Terms
               </h3>
               <p>
-                By using reddyannalive.in, you acknowledge that you have read,
+                By using Reddy Anna Live, you acknowledge that you have read,
                 understood, and agree to be bound by these Terms and Conditions.
                 If you do not agree with any part of these Terms, please do not
-                use our website. These Terms constitute a legally binding agreement
-                between you and reddyannalive.in, governing your use of our platform
-                and services. We reserve the right to modify these Terms at any time,
-                and your continued use of the website constitutes acceptance of any
+                use our Reddy Anna Live website. These Terms constitute a legally binding agreement
+                between you and Reddy Anna Live, governing your use of our Reddy Anna Live platform
+                and services. Reddy Anna Live reserves the right to modify these Terms at any time,
+                and your continued use of the Reddy Anna Live website constitutes acceptance of any
                 changes made.
               </p>
               <p>
                 <strong>Important Notice:</strong> These Terms and Conditions apply
-                to all users of reddyannalive.in, including visitors, registered
-                users, and customers. By accessing or using our website, you confirm
+                to all users of Reddy Anna Live, including visitors, registered
+                users, and customers. By accessing or using our Reddy Anna Live website, you confirm
                 that you are at least 18 years old and have the legal capacity to
-                enter into this agreement. If you are accessing our services on
+                enter into this agreement with Reddy Anna Live. If you are accessing our Reddy Anna Live services on
                 behalf of a company or organization, you represent that you have
-                the authority to bind that entity to these Terms.
+                the authority to bind that entity to these Reddy Anna Live Terms.
               </p>
 
               <h3 className="text-xl font-semibold text-white">
@@ -239,6 +243,216 @@ export const TermsAndCondition = () => {
               >
                 Reddy Anna Customer Support
               </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Terms Benefits */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Reddy Anna Live Terms and Conditions Benefits</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="text-4xl mb-4">🔒</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live User Protection</h3>
+              <p className="text-gray-400">
+                Your rights are protected with Reddy Anna Live Terms and Conditions. 
+                Reddy Anna Live ensures fair and transparent user agreements.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">⚖️</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Legal Framework</h3>
+              <p className="text-gray-400">
+                Clear legal framework provided by Reddy Anna Live. 
+                Reddy Anna Live Terms ensure compliance and user safety.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">📋</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Transparent Terms</h3>
+              <p className="text-gray-400">
+                Transparent terms and conditions with Reddy Anna Live. 
+                Reddy Anna Live provides clear guidelines for all users.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">🛡️</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live User Rights</h3>
+              <p className="text-gray-400">
+                Your rights are clearly defined in Reddy Anna Live Terms. 
+                Reddy Anna Live protects user interests and privacy.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">⚡</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Quick Updates</h3>
+              <p className="text-gray-400">
+                Terms are updated promptly by Reddy Anna Live. 
+                Reddy Anna Live keeps users informed of any changes.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">💬</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Reddy Anna Live Support</h3>
+              <p className="text-gray-400">
+                Get help understanding terms from Reddy Anna Live support. 
+                Reddy Anna Live provides assistance with terms and conditions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Terms Coverage */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Reddy Anna Live Terms Coverage</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Reddy Anna Live User Agreement</h3>
+              <p className="text-gray-400 mb-4">
+                Comprehensive user agreement with Reddy Anna Live. Reddy Anna Live Terms cover all aspects of platform usage. 
+                Understand your rights and responsibilities with Reddy Anna Live.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• User Rights at Reddy Anna Live</li>
+                <li>• Platform Usage with Reddy Anna Live</li>
+                <li>• Account Terms from Reddy Anna Live</li>
+                <li>• Service Agreement with Reddy Anna Live</li>
+              </ul>
+            </div>
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Reddy Anna Live Betting Terms</h3>
+              <p className="text-gray-400 mb-4">
+                Clear betting terms and conditions with Reddy Anna Live. Reddy Anna Live ensures fair betting practices. 
+                Bet responsibly with Reddy Anna Live guidelines.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• Betting Rules at Reddy Anna Live</li>
+                <li>• Responsible Gaming with Reddy Anna Live</li>
+                <li>• Payout Terms from Reddy Anna Live</li>
+                <li>• Betting Limits at Reddy Anna Live</li>
+              </ul>
+            </div>
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Reddy Anna Live Privacy Terms</h3>
+              <p className="text-gray-400 mb-4">
+                Privacy protection terms with Reddy Anna Live. Reddy Anna Live safeguards your personal information. 
+                Trust Reddy Anna Live with your data protection.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• Data Protection at Reddy Anna Live</li>
+                <li>• Privacy Rights with Reddy Anna Live</li>
+                <li>• Information Security from Reddy Anna Live</li>
+                <li>• User Privacy at Reddy Anna Live</li>
+              </ul>
+            </div>
+            <div className="bg-gray-900 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Reddy Anna Live Service Terms</h3>
+              <p className="text-gray-400 mb-4">
+                Service terms and conditions with Reddy Anna Live. Reddy Anna Live provides reliable betting services. 
+                Experience quality service with Reddy Anna Live.
+              </p>
+              <ul className="text-gray-400 space-y-2">
+                <li>• Service Quality at Reddy Anna Live</li>
+                <li>• Support Terms with Reddy Anna Live</li>
+                <li>• Platform Availability from Reddy Anna Live</li>
+                <li>• Service Updates at Reddy Anna Live</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Terms Features */}
+      <section className="py-16 bg-gray-900">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Reddy Anna Live Terms Features</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="text-4xl mb-4">📊</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Clear Terms at Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Easy-to-understand terms with Reddy Anna Live. 
+                Reddy Anna Live provides clear and concise terms and conditions.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">⚡</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Updated Terms with Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Terms are regularly updated by Reddy Anna Live. 
+                Reddy Anna Live ensures current and relevant terms.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">📱</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Mobile Terms at Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Mobile-friendly terms with Reddy Anna Live. 
+                Reddy Anna Live provides accessible terms on all devices.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl mb-4">🎯</div>
+              <h3 className="text-xl font-semibold mb-3 text-yellow-400">Fair Terms at Reddy Anna Live</h3>
+              <p className="text-gray-400">
+                Fair and balanced terms with Reddy Anna Live. 
+                Reddy Anna Live ensures equitable terms for all users.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reddy Anna Live Terms Summary */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Reddy Anna Live Terms and Conditions Summary</h2>
+          <div className="bg-gray-900 rounded-lg p-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Why Trust Reddy Anna Live Terms?</h3>
+                <p className="text-gray-400 mb-4">
+                  Reddy Anna Live provides comprehensive and fair terms and conditions. 
+                  With Reddy Anna Live, you get transparent and user-friendly terms. 
+                  Reddy Anna Live ensures that all terms are clearly explained and easy to understand.
+                </p>
+                <p className="text-gray-400 mb-4">
+                  Our Reddy Anna Live terms protect both users and the platform. 
+                  Reddy Anna Live regularly updates terms to reflect current practices. 
+                  Trust Reddy Anna Live for fair and transparent terms and conditions.
+                </p>
+                <ul className="text-gray-400 space-y-2">
+                  <li>• Transparent Terms at Reddy Anna Live</li>
+                  <li>• User Protection with Reddy Anna Live</li>
+                  <li>• Fair Conditions at Reddy Anna Live</li>
+                  <li>• Regular Updates from Reddy Anna Live</li>
+                  <li>• Clear Guidelines at Reddy Anna Live</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-2xl font-semibold mb-4 text-yellow-400">Reddy Anna Live Terms Benefits</h3>
+                <p className="text-gray-400 mb-4">
+                  Experience the benefits of Reddy Anna Live's comprehensive terms. Reddy Anna Live 
+                  ensures that all terms are fair and protect user interests. 
+                  Join Reddy Anna Live for transparent and reliable terms and conditions.
+                </p>
+                <p className="text-gray-400 mb-4">
+                  Reddy Anna Live provides clear terms that are easy to understand. 
+                  With Reddy Anna Live, you know exactly what to expect. 
+                  Reddy Anna Live is your trusted partner for fair terms and conditions.
+                </p>
+                <ul className="text-gray-400 space-y-2">
+                  <li>• Comprehensive Terms with Reddy Anna Live</li>
+                  <li>• User-Friendly Language at Reddy Anna Live</li>
+                  <li>• Fair Conditions with Reddy Anna Live</li>
+                  <li>• Regular Reviews by Reddy Anna Live</li>
+                  <li>• Support for Terms at Reddy Anna Live</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
