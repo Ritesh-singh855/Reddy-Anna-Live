@@ -1,6 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { FaFootballBall, FaHorse, FaDog } from "react-icons/fa";
-import { GiTennisBall, GiCricketBat } from "react-icons/gi";
 import sportsDataImage1 from "../assets/Cricket-betting-win.webp";
 import sportsDataImage2 from "../assets/Football-betting-win.webp";
 import sportsDataImage3 from "../assets/Tennis-betting-win.webp";
@@ -10,35 +8,30 @@ import sportsDataImage5 from "../assets/GreyhoundRacing-betting-win.webp";
 const sportsData = [
   {
     title: "Cricket",
-    icon: GiCricketBat,
     gradient: "from-red-500 via-red-600 to-red-700",
     iconColor: "text-red-400",
     image: sportsDataImage1,
   },
   {
     title: "Football",
-    icon: FaFootballBall,
     gradient: "from-green-500 via-green-600 to-green-700",
     iconColor: "text-green-400",
     image: sportsDataImage2,
   },
   {
     title: "Tennis",
-    icon: GiTennisBall,
     gradient: "from-pink-500 via-pink-600 to-pink-700",
     iconColor: "text-pink-400",
     image: sportsDataImage3,
   },
   {
     title: "Horse Racing",
-    icon: FaHorse,
     gradient: "from-orange-500 via-orange-600 to-orange-700",
     iconColor: "text-orange-400",
     image: sportsDataImage4,
   },
   {
     title: "Greyhound Racing",
-    icon: FaDog,
     gradient: "from-purple-500 via-purple-600 to-purple-700",
     iconColor: "text-purple-400",
     image: sportsDataImage5,
@@ -84,18 +77,6 @@ export const SportsGrid = () => {
                   alt={sport.title}
                   className="w-full h-48 object-cover"
                 />
-                {/* Floating Icons */}
-                {[...Array(3)].map((_, i) => (
-                  <sport.icon
-                    key={i}
-                    className={`absolute w-8 h-8 ${sport.iconColor} animate-float-down-${i}`}
-                    style={{
-                      top: 0,
-                      left: `${30 * (i + 1)}%`,
-                      animationDelay: `${i * 2}s`,
-                    }}
-                  />
-                ))}
 
                 {/* Content */}
                 <div className="absolute inset-0 flex items-center justify-center">

@@ -9,6 +9,7 @@ const CasinoSection = lazy(() => import("@/components/CasinoSection").then(m => 
 const AboutSection = lazy(() => import("@/components/AboutSection").then(m => ({ default: m.AboutSection })));
 const Testimonials = lazy(() => import("@/components/Testimonials").then(m => ({ default: m.Testimonials })));
 const BlogSection = lazy(() => import("@/components/BlogSection").then(m => ({ default: m.BlogSection })));
+const ReddyAnnaOverviewSection = lazy(() => import("@/components/ReddyAnnaOverviewSection").then(m => ({ default: m.ReddyAnnaOverviewSection })));
 const Footer = lazy(() => import("@/components/Footer").then(m => ({ default: m.Footer })));
 
 const Index = () => {
@@ -113,20 +114,10 @@ const Index = () => {
       <Suspense fallback={null}>
         <BlogSection />
       </Suspense>
+      <ReddyAnnaOverviewSection />
       <Suspense fallback={null}>
         <Footer />
       </Suspense>
-      {/* SEO Keywords (hidden for search engines) */}
-      <div style={{ display: "none" }}>
-        cricbet99, lotus365, mahadev book, mahakal book, reddy anna app, reddy
-        anna betting, reddy anna book, reddy anna book 247, reddy anna book live
-        login, reddy anna book login, reddy anna club, reddy anna club live,
-        reddy anna customer care number, reddy anna live, reddy anna live
-        casino, reddy anna live cricket, reddy anna live login, reddy anna live
-        score, reddy anna live today, reddy anna login, reddy anna online, reddy
-        anna online book id, reddy anna website, reddy anna whatsapp number,
-        reddybook, reddy anna, online id, cricket id, casino id, fast deposit, fast withdrawal, auto deposit, auto withdrawal, gold365, live casino, all penal, ipl, bbl, sat20, cwc, psl, new id, trusted, reddyannabook, instagram id
-      </div>
     </div>
   );
 };
