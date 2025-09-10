@@ -145,6 +145,22 @@ export const LiveMatches = () => {
               "@type": "ServiceChannel",
               serviceUrl: "https://api.whatsapp.com/send?phone=918890051287"
             }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "SportsEvent",
+            "name": "IPL 2025 Mumbai Indians vs Chennai Super Kings",
+            "startDate": "2025-04-15T19:30:00+05:30",
+            "location": {
+              "@type": "Place",
+              "name": "Wankhede Stadium",
+              "address": "Mumbai, India"
+            },
+            "offers": {
+              "@type": "Offer",
+              "description": "Live Cricket Betting Odds",
+              "url": "https://reddyannalive.in/live-betting"
+            }
           }
         ]}
       />

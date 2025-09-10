@@ -76,6 +76,7 @@ export const SportsGrid = () => {
                   src={sport.image}
                   alt={sport.title}
                   className="w-full h-48 object-cover"
+                  loading="lazy"
                 />
 
                 {/* Content */}

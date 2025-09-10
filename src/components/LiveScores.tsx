@@ -136,7 +136,7 @@ export const LiveScores = () => {
         </div>
 
         {/* Live Matches Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 min-h-[300px]">
           {filteredMatches.map((match) => (
             <Card key={match.id} className="bg-gray-900 border-gray-800 hover:border-yellow-400 transition-colors">
               <CardContent className="p-6">

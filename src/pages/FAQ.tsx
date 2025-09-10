@@ -10,6 +10,10 @@ const faqCategories = [
     icon: "🚀",
     faqs: [
       {
+        question: "What is Reddy Anna?",
+        answer: "Reddy Anna is India's most trusted cricket betting platform since 2010, serving 10+ lakh customers with instant withdrawals and 24/7 support."
+      },
+      {
         question: "How do I create a Reddy Anna Live account?",
         answer: "Creating your Reddy Anna Live account is simple and fast. Contact us via WhatsApp, and our support team will guide you through the process. Your new ID will be created and activated within 2 minutes, with no KYC or documentation required."
       },

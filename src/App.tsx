@@ -8,6 +8,7 @@ import { Header } from "@/components/Header";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { GoogleAnalytics, GoogleSearchConsole } from "@/components/GoogleAnalytics";
 import { PerformanceOptimizer } from "@/components/PerformanceOptimizer";
+import { SEO } from "@/components/SEO";
 
 const Sidebar = lazy(() => import("@/components/Sidebar").then(m => ({ default: m.Sidebar })));
 const Index = lazy(() => import("./pages/Index"));
@@ -25,6 +26,28 @@ const LiveChat = lazy(() => import("@/components/LiveChat").then(m => ({ default
 
 const queryClient = new QueryClient();
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Reddy Anna",
+  "alternateName": ["Reddy Anna Live", "reddyanna"],
+  "url": "https://www.reddyannalive.in",
+  "logo": "https://www.reddyannalive.in/images/reddy-anna-logo.png",
+  "foundingDate": "2010",
+  "description": "India's #1 cricket betting platform",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-8890051287", // Replace with actual phone number if available
+    "contactType": "Customer Service",
+    "areaServed": "IN",
+    "availableLanguage": ["en", "hi"]
+  },
+  "sameAs": [
+    "https://www.instagram.com/reddyannabook_id/",
+    "https://www.facebook.com/reddyanna"
+  ]
+};
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -34,6 +57,7 @@ const App = () => (
         <GoogleAnalytics />
         <GoogleSearchConsole />
         <PerformanceOptimizer />
+        <SEO structuredData={[organizationSchema]} />
         <div className="min-h-screen bg-black">
           <Header />
           <Breadcrumb />

@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/favicon.png?v=2" />
 
-    <title>
-      Reddy Anna Live - Online Sports Betting, Casino & Exclusive Offers
-    </title>
+    <title>Reddy Anna | India's #1 Cricket Betting Platform Since 2010</title>
     <meta
       name="description"
-      content="Join Reddy Anna Live for the best online sports betting experience in India. Enjoy live casino games, instant payouts, secure transactions, and exclusive offers for new users. Bet on cricket, football, and more!"
+      content="Reddy Anna Live - Join 10+ lakh customers at India's most trusted cricket betting platform. Get instant withdrawals, 24/7 support & best odds since 2010."
     />
+    <link rel="preload" href="/fonts/Inter.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Preload for potential hero background image (if added later) -->
+    <link rel="preload" href="/images/hero-bg.webp" as="image">
     <meta name="author" content="Reddy Anna Live" />
     <meta name="publisher" content="Reddy Anna Live" />
     <meta name="copyright" content="Reddy Anna Live" />
@@ -74,5 +75,18 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+              console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            })
+            .catch(err => {
+              console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+      }
+    </script>
   </body>
 </html>

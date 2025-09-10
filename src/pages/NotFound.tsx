@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { SEO } from "@/components/SEO";
+import SearchBox from "@/components/SearchBox";
 
 const NotFound = () => {
   const location = useLocation();
@@ -41,6 +42,9 @@ const NotFound = () => {
           <p className="mt-2 text-black/80">The page "{location.pathname}" does not exist.</p>
         </section>
 
+        {/* Search Box */}
+        <SearchBox />
+
         {/* Helpful links grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <a href="/" className="block p-5 rounded-lg bg-gray-900 border border-gray-800 hover:border-yellow-400 transition">
@@ -58,6 +62,18 @@ const NotFound = () => {
           <a href="/privacyPolicy" className="block p-5 rounded-lg bg-gray-900 border border-gray-800 hover:border-yellow-400 transition">
             <h3 className="text-xl font-semibold">Privacy Policy</h3>
             <p className="text-gray-400 text-sm mt-1">Read how we handle your data.</p>
+          </a>
+          <a href="/faq" className="block p-5 rounded-lg bg-gray-900 border border-gray-800 hover:border-yellow-400 transition">
+            <h3 className="text-xl font-semibold">FAQs</h3>
+            <p className="text-gray-400 text-sm mt-1">Find answers to common questions.</p>
+          </a>
+          <a href="/sports" className="block p-5 rounded-lg bg-gray-900 border border-gray-800 hover:border-yellow-400 transition">
+            <h3 className="text-xl font-semibold">Sports Betting</h3>
+            <p className="text-gray-400 text-sm mt-1">Explore our sports betting options.</p>
+          </a>
+          <a href="/casino" className="block p-5 rounded-lg bg-gray-900 border border-gray-800 hover:border-yellow-400 transition">
+            <h3 className="text-xl font-semibold">Casino Games</h3>
+            <p className="text-gray-400 text-sm mt-1">Discover a variety of casino games.</p>
           </a>
           <a href="/termAndCondition" className="block p-5 rounded-lg bg-gray-900 border border-gray-800 hover:border-yellow-400 transition">
             <h3 className="text-xl font-semibold">Terms & Conditions</h3>
@@ -85,6 +101,10 @@ const NotFound = () => {
             <li><a className="underline hover:text-yellow-400" href="/contact-us">Contact Us</a></li>
             <li><a className="underline hover:text-yellow-400" href="/privacyPolicy">Privacy Policy</a></li>
             <li><a className="underline hover:text-yellow-400" href="/termAndCondition">Terms & Conditions</a></li>
+            <li><a className="underline hover:text-yellow-400" href="/faq">FAQs</a></li>
+            <li><a className="underline hover:text-yellow-400" href="/sports">Sports Betting</a></li>
+            <li><a className="underline hover:text-yellow-400" href="/casino">Casino Games</a></li>
+            <li><a className="underline hover:text-yellow-400" href="/sitemap.xml">Sitemap</a></li>
           </ul>
         </div>
       </div>
